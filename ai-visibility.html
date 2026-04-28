@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Clients Found in ChatGPT, Gemini, and Google AI — Paige for Agencies</title>
+  <meta name="description" content="Paige is the AI worker that puts your agency clients in AI search — ChatGPT, Gemini, Perplexity, and Google AI Overviews. White-label included. $99/month per profile. 3-day free trial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0f007d',
+            pink: '#dd0cf7',
+            blue: '#0063fd',
+            purple: '#8b00cc',
+            green: '#05c168',
+            orange: '#ff9e2c',
+            dark: '#1c1f23',
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-in { opacity: 0; transition: opacity 0.5s ease-out; }
+    .fade-in.visible { opacity: 1; }
+    .hero-animate { opacity: 0; transform: translateY(20px); animation: heroFadeUp 0.7s ease-out forwards; }
+    .hero-animate-1 { animation-delay: 0.1s; }
+    .hero-animate-2 { animation-delay: 0.3s; }
+    .hero-animate-3 { animation-delay: 0.5s; }
+    .hero-animate-4 { animation-delay: 0.7s; }
+    @keyframes heroFadeUp { to { opacity: 1; transform: translateY(0); } }
+    @keyframes subtlePulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(221, 12, 247, 0.4); } 50% { box-shadow: 0 0 0 8px rgba(221, 12, 247, 0); } }
+    .cta-pulse { animation: subtlePulse 2.5s ease-in-out 1.5s 3; }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+    .faq-answer.open { max-height: 400px; }
+    .faq-chevron { transition: transform 0.3s ease; }
+    .faq-chevron.rotated { transform: rotate(180deg); }
+    /* Video placeholder play button */
+    .play-btn {
+      width: 80px; height: 80px; border-radius: 9999px;
+      background: rgba(221, 12, 247, 0.95);
+      box-shadow: 0 8px 32px rgba(221, 12, 247, 0.35);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s ease;
+    }
+    .play-btn:hover { transform: scale(1.05); }
+    @media (prefers-reduced-motion: reduce) {
+      .fade-up, .fade-in { opacity: 1; transform: none; transition: none; }
+      .hero-animate { opacity: 1; transform: none; animation: none; }
+      .cta-pulse { animation: none; }
+      .faq-answer { transition: none; }
+      .play-btn { transition: none; }
+    }
+  </style>
+</head>
+<body class="bg-white text-dark font-sans antialiased">
+
+  <!-- ============================================================ -->
+  <!-- HEADER (logo only, no nav per LP CRO best practice) -->
+  <!-- ============================================================ -->
+  <header>
+    <div class="max-w-7xl mx-auto px-5 py-5">
+      <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/66339ef1b234725e28eea737_merchynt-logo.svg" alt="Merchynt" class="h-8 hero-animate hero-animate-1">
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- §1 — HERO (2-col 50/50 with video placeholder) -->
+  <!-- ============================================================ -->
+  <section>
+    <div class="max-w-7xl mx-auto px-5 pt-6 pb-16 md:pt-12 md:pb-24">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <!-- Left: copy -->
+        <div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-navy hero-animate hero-animate-1">
+            Get your clients found in ChatGPT, Gemini, and Google AI. <span class="text-pink">Automatically.</span>
+          </h1>
+          <p class="mt-5 text-lg md:text-xl text-gray-600 leading-relaxed hero-animate hero-animate-2">
+            The agencies winning 2026 are already showing up in AI-generated local search. Paige puts your clients there &mdash; across Google, ChatGPT, Gemini, Perplexity, and AI Overviews. White-label included.
+          </p>
+          <div class="mt-7 hero-animate hero-animate-3">
+            <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link cta-pulse inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+              Start FREE TRIAL &rarr;
+            </a>
+          </div>
+          <p class="mt-3 text-sm text-gray-400 hero-animate hero-animate-4">
+            Free for 3 days &middot; Cancel anytime
+          </p>
+          <!-- Trust strip -->
+          <div class="mt-7 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500 hero-animate hero-animate-4">
+            <span class="flex items-center gap-1.5"><span class="text-orange">&#9733;</span> 4.9/5 rating</span>
+            <span class="text-gray-300">&middot;</span>
+            <span>10,000+ businesses managed</span>
+            <span class="text-gray-300">&middot;</span>
+            <span>500+ agencies white-labeling</span>
+          </div>
+        </div>
+        <!-- Right: video placeholder -->
+        <div class="hero-animate hero-animate-2">
+          <div class="aspect-video bg-gradient-to-br from-navy to-purple rounded-2xl shadow-2xl border border-gray-100 flex items-center justify-center relative overflow-hidden cursor-pointer group">
+            <!-- Soft pattern overlay -->
+            <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 20% 30%, rgba(221,12,247,0.4), transparent 50%), radial-gradient(circle at 80% 70%, rgba(0,99,253,0.3), transparent 50%);"></div>
+            <!-- Play button -->
+            <div class="play-btn relative z-10 group-hover:scale-110 transition-transform">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <!-- Caption -->
+            <p class="absolute bottom-5 left-0 right-0 text-center text-white/80 text-sm font-medium">Watch a 2-min Paige demo</p>
+          </div>
+          <p class="mt-2 text-xs text-gray-400 text-center md:text-left">[Video placeholder &mdash; embed Paige demo here]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §2 — SOCIAL PROOF BAR (As Featured In) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-8 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-5">
+      <p class="text-xs text-gray-400 uppercase tracking-widest text-center mb-5 fade-in">As Featured In</p>
+      <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-50">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/66b488ec150ee2998311070e_Us%20chamber%20of%20commerce.svg" alt="US Chamber of Commerce" class="h-6 md:h-8 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7cae98d53e89403b2e4_yahoo-logo.svg" alt="Yahoo" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca83d4151d36fb7152_martech-logo.svg" alt="MarTech" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca092379a138f8293e_Techbullion.svg" alt="TechBullion" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7cac2d208f7b685b93b_business-news-logo.svg" alt="Business News" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca50e49af103d357a2_spectrum-logo.svg" alt="Spectrum" class="h-5 md:h-7 fade-in">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §3 — PROBLEM / AGITATION -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5 text-center fade-up">
+      <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Your clients are about to start asking why they're not in AI&nbsp;search.</h2>
+      <p class="mt-6 text-lg text-gray-600 leading-relaxed">You've spent the last decade getting clients ranked in Google. <strong class="text-dark">You're good at it.</strong></p>
+      <p class="mt-4 text-lg text-gray-600 leading-relaxed">Now they're starting to ask new questions:</p>
+      <div class="mt-6 space-y-3 text-lg text-gray-600 italic max-w-2xl mx-auto">
+        <p>&ldquo;How do we show up in ChatGPT?&rdquo;</p>
+        <p>&ldquo;Why is our competitor in Google's AI Overviews and we're not?&rdquo;</p>
+        <p>&ldquo;My customer found us through Perplexity. Can we do more of that?&rdquo;</p>
+      </div>
+      <p class="mt-7 text-lg text-gray-600 leading-relaxed">You've reassured them &mdash; <em class="text-dark">"90% of search is still Google."</em> That used to be enough. It's not anymore. AI search is small. It's growing fast. The rules are different. The agencies that figure it out first own this niche for the next decade.</p>
+      <p class="mt-5 text-xl font-semibold text-navy">The agencies that don't, hand it to whoever does.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §4 — SOLUTION INTRO -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5 text-center fade-up">
+      <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Meet Paige. The AI worker your agency hires for $99 a&nbsp;month.</h2>
+      <p class="mt-6 text-lg text-gray-600 leading-relaxed">Paige is not a tool. She doesn't sit in your dashboard waiting for someone to click "publish." She's an autonomous AI worker that runs your clients' local SEO end-to-end &mdash; Google Business Profile, photos, posts, reviews, citations, social, YouTube &mdash; and feeds the structured data that AI engines train on and cite.</p>
+      <p class="mt-4 text-lg text-gray-600 leading-relaxed"><strong class="text-dark">Setup takes 10 minutes. Then you go back to running your agency.</strong></p>
+      <div class="mt-8">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          Start FREE TRIAL &rarr;
+        </a>
+        <p class="mt-3 text-sm text-gray-400">Free for 3 days &middot; Cancel anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §5 — HOW PAIGE WORKS (3 steps) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">How It Works</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Three steps. Then she runs on her&nbsp;own.</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up">
+          <div class="w-12 h-12 rounded-full bg-blue/10 flex items-center justify-center mb-5">
+            <span class="text-2xl">1</span>
+          </div>
+          <h3 class="font-bold text-lg text-navy mb-2">Connect a client's GBP</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Paige plugs into your client's Google Business Profile and pulls everything she needs to know about their business.</p>
+          <span class="inline-block mt-4 text-xs font-semibold text-blue bg-blue/10 px-3 py-1 rounded-full">~10 minutes</span>
+        </div>
+        <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up" style="transition-delay:0.15s">
+          <div class="w-12 h-12 rounded-full bg-pink/10 flex items-center justify-center mb-5">
+            <span class="text-2xl">2</span>
+          </div>
+          <h3 class="font-bold text-lg text-navy mb-2">Paige takes over</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Daily posts. Geotagged photos. Instant review responses. Citation cleanup across 62 directories. YouTube videos. Social posts. Reporting. All done.</p>
+          <span class="inline-block mt-4 text-xs font-semibold text-pink bg-pink/10 px-3 py-1 rounded-full">Hands off</span>
+        </div>
+        <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up" style="transition-delay:0.3s">
+          <div class="w-12 h-12 rounded-full bg-green/10 flex items-center justify-center mb-5">
+            <span class="text-2xl">3</span>
+          </div>
+          <h3 class="font-bold text-lg text-navy mb-2">White-label everything</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Custom domain, your logo, your colors, your email sender. Your clients see your brand. They never know Paige exists.</p>
+          <span class="inline-block mt-4 text-xs font-semibold text-green bg-green/10 px-3 py-1 rounded-full">Your brand</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §6 — VALUE PROP DEEP DIVE (the meat) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">Why It Works</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Why GBP is the front door to AI&nbsp;search.</h2>
+      </div>
+      <div class="fade-up text-lg text-gray-600 leading-relaxed space-y-5">
+        <p>Here's what most agencies miss about AI search:</p>
+        <p><strong class="text-dark">LLMs don't make stuff up about local businesses.</strong> They surface what they've been trained on &mdash; and what they can pull live. The strongest signals come from structured, frequently-updated, high-trust sources:</p>
+      </div>
+      <ul class="mt-7 space-y-4 fade-up">
+        <li class="bg-white rounded-xl p-5 border border-gray-100 flex gap-4 items-start">
+          <span class="text-pink text-2xl flex-shrink-0">&#9679;</span>
+          <div><strong class="text-navy">Google Business Profiles</strong> &mdash; clean, verified, structured local data. The single richest source LLMs reference for "best dentist near me" type queries.</div>
+        </li>
+        <li class="bg-white rounded-xl p-5 border border-gray-100 flex gap-4 items-start">
+          <span class="text-blue text-2xl flex-shrink-0">&#9679;</span>
+          <div><strong class="text-navy">Citation directories</strong> &mdash; 62 of them. Paige syncs all of them automatically.</div>
+        </li>
+        <li class="bg-white rounded-xl p-5 border border-gray-100 flex gap-4 items-start">
+          <span class="text-purple text-2xl flex-shrink-0">&#9679;</span>
+          <div><strong class="text-navy">YouTube</strong> &mdash; <em>currently the #2 most-cited source in Google AI Overviews.</em> Paige creates and publishes YouTube videos for your clients without anyone touching a camera.</div>
+        </li>
+        <li class="bg-white rounded-xl p-5 border border-gray-100 flex gap-4 items-start">
+          <span class="text-green text-2xl flex-shrink-0">&#9679;</span>
+          <div><strong class="text-navy">Social posts</strong> &mdash; fresh, dated, business-tagged. Paige posts to Facebook, Instagram, LinkedIn, and YouTube on a daily cadence.</div>
+        </li>
+      </ul>
+      <div class="mt-8 fade-up text-lg text-gray-600 leading-relaxed space-y-4">
+        <p>Most agencies do one or two of these manually, sporadically, on the clients who scream loudest. <strong class="text-dark">Paige does all of them, every day, for every client, on autopilot.</strong></p>
+        <p>That's the difference between "we tried to optimize for AI" and "our clients show up in AI."</p>
+      </div>
+      <!-- Stat callouts -->
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 fade-up">
+        <div class="bg-white rounded-xl p-5 text-center border border-gray-100">
+          <p class="text-3xl font-bold text-pink">62</p>
+          <p class="text-xs text-gray-500 mt-1 leading-tight">directory citations synced</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-gray-100">
+          <p class="text-3xl font-bold text-blue">80%+</p>
+          <p class="text-xs text-gray-500 mt-1 leading-tight">of users let Paige publish without review</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-gray-100">
+          <p class="text-3xl font-bold text-purple">24/7</p>
+          <p class="text-xs text-gray-500 mt-1 leading-tight">content cadence across 4 platforms</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-gray-100">
+          <p class="text-3xl font-bold text-green">10,000+</p>
+          <p class="text-xs text-gray-500 mt-1 leading-tight">businesses Paige already optimizes</p>
+        </div>
+      </div>
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          Start FREE TRIAL &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §7 — PRIMARY CASE STUDY (Rooster Roofers) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">Case Study</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">#47 &rarr; #1. Zero hours of human&nbsp;labor.</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-10 items-center fade-up">
+        <!-- Left: stat block -->
+        <div class="bg-gradient-to-br from-navy to-purple rounded-2xl p-10 text-white text-center">
+          <p class="text-sm uppercase tracking-widest opacity-70">Ranking improvement</p>
+          <p class="text-6xl md:text-7xl font-bold mt-3 mb-2">19,862<span class="text-pink">%</span></p>
+          <p class="text-sm opacity-80 mb-6">in 90 days</p>
+          <div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/20">
+            <div>
+              <p class="text-2xl font-bold">29</p>
+              <p class="text-xs opacity-70 mt-1">leads generated</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold">$520K</p>
+              <p class="text-xs opacity-70 mt-1">estimated value</p>
+            </div>
+          </div>
+        </div>
+        <!-- Right: narrative -->
+        <div>
+          <h3 class="text-2xl font-bold text-navy mb-4">Rooster Roofers, Denver CO</h3>
+          <p class="text-lg text-gray-600 leading-relaxed mb-4">Started at #47 in their local map pack. Ninety days later, Paige had them at #1.</p>
+          <p class="text-lg text-gray-600 leading-relaxed mb-4">The result: 29 lead actions worth an estimated $520,000 in pipeline. Plus AI search visibility &mdash; Rooster Roofers now surfaces in AI-generated local search alongside the traditional ranking gain.</p>
+          <p class="text-lg text-dark font-semibold">Paige did the entire optimization. Their team did nothing.</p>
+        </div>
+      </div>
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          Start FREE TRIAL &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §8 — SECONDARY CASE STUDIES -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Not a one-off.</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl p-8 border border-gray-100 hover:shadow-md transition-shadow fade-up">
+          <p class="text-xs text-gray-400 uppercase tracking-widest mb-2">Medical Clinic</p>
+          <h3 class="font-bold text-xl text-navy mb-4">The Hybrid Clinic Wellness Center</h3>
+          <div class="grid grid-cols-2 gap-4 mb-5">
+            <div>
+              <p class="text-3xl font-bold text-pink">2,674%</p>
+              <p class="text-xs text-gray-500 mt-1">ranking lift in 30 days</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-green">$415K</p>
+              <p class="text-xs text-gray-500 mt-1">estimated lead value</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">2,768 lead actions. Visible in ChatGPT and Llama responses for "holistic health" queries.</p>
+        </div>
+        <div class="bg-white rounded-xl p-8 border border-gray-100 hover:shadow-md transition-shadow fade-up" style="transition-delay:0.15s">
+          <p class="text-xs text-gray-400 uppercase tracking-widest mb-2">Retail</p>
+          <h3 class="font-bold text-xl text-navy mb-4">Home Crush</h3>
+          <div class="grid grid-cols-2 gap-4 mb-5">
+            <div>
+              <p class="text-3xl font-bold text-pink">7,320%</p>
+              <p class="text-xs text-gray-500 mt-1">ranking lift in 30 days</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-green">$1.1M</p>
+              <p class="text-xs text-gray-500 mt-1">estimated customer value</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">225 customer actions. Showing up in both traditional and AI search results across target area.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §9 — OBJECTION 1: WHITE-LABEL PROOF -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-up">
+          <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">White-Label</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight mb-5">Your brand. Not&nbsp;ours.</h2>
+          <p class="text-lg text-gray-600 leading-relaxed mb-6">Paige is built to disappear. Your clients see your dashboard, your domain, your email sender, your reports. They don't see Merchynt. They don't see "Paige." They see your agency, doing the work.</p>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span><strong>Custom domain</strong> &mdash; host the dashboard on yours</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span><strong>Your logo and colors</strong> &mdash; across every client-facing surface</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span><strong>Your email sender</strong> &mdash; every notification comes from your address</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span><strong>Rename Paige</strong> &mdash; call her whatever you want</span></li>
+          </ul>
+          <p class="mt-6 text-base text-navy font-semibold italic">"500+ agencies white-label Paige. Their clients have no idea."</p>
+        </div>
+        <div class="fade-up" style="transition-delay:0.15s">
+          <!-- White-label visual placeholder -->
+          <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200 aspect-[4/3] flex items-center justify-center">
+            <div class="text-center">
+              <div class="inline-block bg-white rounded-xl shadow-lg p-6 mb-4">
+                <div class="flex items-center gap-3 mb-3">
+                  <div class="w-8 h-8 bg-pink rounded"></div>
+                  <span class="font-bold text-navy">Your Agency</span>
+                </div>
+                <div class="space-y-1.5">
+                  <div class="h-2 bg-gray-200 rounded w-32"></div>
+                  <div class="h-2 bg-gray-200 rounded w-24"></div>
+                  <div class="h-2 bg-gray-200 rounded w-28"></div>
+                </div>
+              </div>
+              <p class="text-xs text-gray-400">[Dashboard mockup placeholder]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §10 — OBJECTION 2: AI QUALITY PROOF -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-5 text-center">
+      <div class="fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">Will the AI Actually Rank?</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight mb-6">80% of Paige users let her publish without ever reviewing it&nbsp;first.</h2>
+        <p class="text-lg text-gray-600 leading-relaxed mb-10">The most common objection we hear is <em>"will AI content actually rank?"</em><br>Here's the answer in numbers.</p>
+      </div>
+      <div class="grid grid-cols-3 gap-4 md:gap-8 mb-10 fade-up">
+        <div class="bg-white rounded-xl p-6 md:p-8 border border-gray-100">
+          <p class="text-4xl md:text-5xl font-bold text-pink">80%+</p>
+          <p class="text-sm text-gray-500 mt-2 leading-tight">of users let Paige publish 100% without approval</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 md:p-8 border border-gray-100">
+          <p class="text-4xl md:text-5xl font-bold text-blue">10,000+</p>
+          <p class="text-sm text-gray-500 mt-2 leading-tight">profiles managed across the platform</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 md:p-8 border border-gray-100">
+          <p class="text-4xl md:text-5xl font-bold text-green">1M+</p>
+          <p class="text-sm text-gray-500 mt-2 leading-tight">data points trained on &mdash; strategies update as Paige learns</p>
+        </div>
+      </div>
+      <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto fade-up">You can review every post, photo, and review reply before it goes live. Most agencies don't bother after the first week. The output is consistent, the rankings move, and the dashboard shows the work. <strong class="text-dark">That's enough.</strong></p>
+      <p class="mt-4 text-base text-gray-500 italic max-w-2xl mx-auto fade-up">The 19,862% ranking lift Rooster Roofers got? Paige published all of it without human approval.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §11 — OBJECTION 3: TOOL COMPARISON -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">Already Using a Tool?</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Other tools help your team. Paige replaces&nbsp;it.</h2>
+      </div>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="text-left p-4 md:p-5 text-sm font-semibold text-gray-500"></th>
+              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500">Manual / VAs</th>
+              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500 leading-tight">BrightLocal &middot;<br>LocalViking &middot;<br>Whitespark</th>
+              <th class="text-center p-4 md:p-5 text-sm font-bold text-pink leading-tight bg-pink/5">Paige</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100 text-sm">
+            <tr><td class="p-4 md:p-5 font-medium text-navy">Daily GBP posts</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-orange">&#9888; Manual schedule</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; Automatic</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">Geotagged photos</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-orange">&#9888; Manual upload</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; Auto-published</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">Review replies</td><td class="text-center p-4 text-orange">&#9888; Slow</td><td class="text-center p-4 text-orange">&#9888; Manual approval</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; Instant, AI</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">Citation cleanup</td><td class="text-center p-4 text-orange">&#9888; Manual</td><td class="text-center p-4 text-green">&#10003;</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003;</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">YouTube videos for AI search</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; Auto-created</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">Multi-platform social</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; FB, IG, LI, YT</td></tr>
+            <tr><td class="p-4 md:p-5 font-medium text-navy">White-label</td><td class="text-center p-4 text-gray-400">&#10007;</td><td class="text-center p-4 text-gray-400">&#10007; Mostly no</td><td class="text-center p-4 text-green bg-pink/5 font-semibold">&#10003; Same price</td></tr>
+            <tr class="bg-gray-50"><td class="p-4 md:p-5 font-bold text-navy">Hours/client/month</td><td class="text-center p-4 font-bold text-orange">4&ndash;6</td><td class="text-center p-4 font-bold text-orange">Some</td><td class="text-center p-4 font-bold text-pink bg-pink/10">0</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-center text-xl font-semibold text-navy italic mt-8 fade-up">You're not buying a tool. You're hiring a worker.</p>
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          Start FREE TRIAL &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §12 — TESTIMONIALS WALL -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Why agencies switched to&nbsp;Paige</h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 fade-up">
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">"I've been working with Merchynt's new AI tool 'Paige' and I am blown away by how it makes my life easier. The ease of use and ability at a glance to see how my pages are ranking has been a game changer for me."</p>
+          <p class="text-sm font-bold text-navy">Amber Goetz</p>
+          <p class="text-xs text-gray-400 mt-0.5">June 2025</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">"Merchynt's features are unmatched and has a very user-friendly dashboard. Would highly recommend!"</p>
+          <p class="text-sm font-bold text-navy">Marketing Blendz</p>
+          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">"Super easy tool to use. Very intuitive. The AI is the bomb."</p>
+          <p class="text-sm font-bold text-navy">Craig Broadhead</p>
+          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">"I had searched for a similar tool to this before and couldn't find anything. This was so simple to use and informative. I love the heatmap."</p>
+          <p class="text-sm font-bold text-navy">Michael Boroviak</p>
+          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
+        </div>
+      </div>
+      <p class="text-center text-xs text-gray-400 mt-6 italic">[Replace with 1&ndash;2 agency-specific testimonials at build time]</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §13 — PRICING -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5 text-center">
+      <div class="fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy mb-3">Simple pricing. Built for&nbsp;agencies.</h2>
+      </div>
+      <div class="bg-white rounded-2xl border-2 border-pink/20 p-8 md:p-10 mt-10 fade-up shadow-lg">
+        <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Per profile, per month</p>
+        <p class="text-6xl md:text-7xl font-bold text-navy">$99<span class="text-2xl text-gray-400 font-normal">/mo</span></p>
+        <ul class="mt-8 space-y-3 text-left max-w-xs mx-auto">
+          <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span> Full automation, top to bottom</li>
+          <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span> White-label included</li>
+          <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span> Unlimited team users</li>
+          <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span> 10-minute setup</li>
+          <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span> Cancel anytime</li>
+        </ul>
+        <div class="mt-8">
+          <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+            Start FREE TRIAL &rarr;
+          </a>
+          <p class="mt-3 text-sm text-gray-400">Free for 3 days &middot; Cancel anytime</p>
+        </div>
+      </div>
+      <p class="mt-8 text-base text-gray-600 leading-relaxed fade-up max-w-xl mx-auto">Most agencies charge clients <strong class="text-navy">$500&ndash;1,500/mo</strong> for GBP services. Paige costs you <strong class="text-pink">$99 per profile.</strong> The math works at any scale.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §14 — FAQ -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Other questions agencies&nbsp;ask</h2>
+      </div>
+      <div class="space-y-3 fade-up" id="faq-list">
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Does Paige actually help my clients rank in ChatGPT, Gemini, and Perplexity?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes &mdash; though it works differently than ranking in Google. AI engines surface businesses based on structured data and the trust signals around it: an active, well-optimized Google Business Profile; consistent citations across 62+ directories; YouTube videos (currently the #2 most-cited source in Google AI Overviews); and frequent, dated social signals. Paige systematically produces all of it. Most of our case-study clients see AI search visibility on the same timeline as their core ranking gains.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How does the trial work?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Three days, full access, one real client profile, cancel anytime. We recommend setting Paige up on your hardest-to-rank client and watching what happens in 72 hours.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How long does setup take?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">About 10 minutes per profile. After that, Paige runs on her own.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can I add multiple clients to one Paige account?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes. You can connect every Google account you manage. Each profile is billed at $99/month.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How does billing work?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Per-profile, monthly. Pause or cancel any client at any time, no contracts.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Does Paige work in non-English markets?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Paige generates content in 30+ languages. UI is available in English, Spanish, Portuguese, French, German, Dutch, Italian, and others.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §15 — FINAL CTA / CLOSER -->
+  <!-- ============================================================ -->
+  <section class="bg-navy py-20 md:py-28 relative overflow-hidden">
+    <!-- background flourish -->
+    <div class="absolute inset-0 opacity-30 pointer-events-none" style="background-image: radial-gradient(circle at 15% 50%, rgba(221,12,247,0.4), transparent 40%), radial-gradient(circle at 85% 50%, rgba(0,99,253,0.3), transparent 40%);"></div>
+    <div class="max-w-3xl mx-auto px-5 text-center relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight fade-up">Be the agency that gets AI search right&nbsp;first.</h2>
+      <p class="mt-5 text-lg md:text-xl text-white/80 leading-relaxed fade-up max-w-2xl mx-auto">The agencies that adopt AI workers in 2026 are the ones whose client rosters look unrecognizable in 2027. Run Paige on one client free for 3 days. See what happens.</p>
+      <div class="mt-8 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-full shadow-2xl hover:scale-[1.03] transition-all duration-200">
+          Start FREE TRIAL &rarr;
+        </a>
+        <p class="mt-4 text-sm text-white/60">Free for 3 days &middot; Cancel anytime &middot; Your clients never know it's not you</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §16 — FOOTER -->
+  <!-- ============================================================ -->
+  <footer class="bg-navy border-t border-white/10 py-8 text-white/60">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/66339ef1b234725e28eea737_merchynt-logo.svg" alt="Merchynt" class="h-6 brightness-0 invert">
+        <span class="text-sm">&copy; 2026 Merchynt</span>
+      </div>
+      <div class="text-sm flex gap-5">
+        <a href="https://www.merchynt.com/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="https://www.merchynt.com/terms" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS -->
+  <!-- ============================================================ -->
+  <script>
+    // 1. Intersection Observer for fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-up, .fade-in').forEach(el => observer.observe(el));
+
+    // 2. FAQ accordion
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.parentElement.querySelector('.faq-answer');
+        const chevron = btn.querySelector('.faq-chevron');
+        const isOpen = answer.classList.contains('open');
+        // Close all others
+        document.querySelectorAll('.faq-answer.open').forEach(a => {
+          a.classList.remove('open');
+          a.parentElement.querySelector('.faq-chevron').classList.remove('rotated');
+          a.parentElement.querySelector('.faq-chevron').textContent = '+';
+        });
+        if (!isOpen) {
+          answer.classList.add('open');
+          chevron.classList.add('rotated');
+          chevron.textContent = '−'; // minus sign
+        }
+      });
+    });
+
+    // 3. UTM passthrough — append LP URL params to all CTA hrefs on click
+    (function() {
+      const lpParams = new URLSearchParams(window.location.search);
+      // Only forward UTM-style params (and a few others) — not the whole query string
+      const forwardKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','fbclid','gclid'];
+      const forwarded = new URLSearchParams();
+      forwardKeys.forEach(k => { if (lpParams.has(k)) forwarded.set(k, lpParams.get(k)); });
+      if (forwarded.toString() === '') return;
+      document.querySelectorAll('a.cta-link').forEach(a => {
+        try {
+          const u = new URL(a.href);
+          forwarded.forEach((v, k) => u.searchParams.set(k, v));
+          a.href = u.toString();
+        } catch (e) { /* ignore malformed urls */ }
+      });
+    })();
+  </script>
+
+</body>
+</html>
