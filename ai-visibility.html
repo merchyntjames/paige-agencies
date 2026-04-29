@@ -75,6 +75,21 @@
     }
   </style>
 
+  <!-- Meta (Facebook) Pixel — fires PageView automatically -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2575183905893107');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2575183905893107&ev=PageView&noscript=1" alt=""/></noscript>
+
   <!-- Vercel Analytics (static HTML install — auto-tracks page views) -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -1234,6 +1249,18 @@
         dot.addEventListener('click', () => {
           currentIndex = i;
           update();
+        });
+      });
+    })();
+
+    // 7. Facebook Pixel — fire InitiateCheckout when any CTA is clicked
+    //    PageView fires automatically on load via the head snippet.
+    //    InitiateCheckout = mid-funnel intent signal (clicked through to trial flow).
+    //    StartTrial fires off-page on app.localmarketingmanager.com (trial confirmation).
+    (function() {
+      document.querySelectorAll('a.cta-link').forEach(a => {
+        a.addEventListener('click', () => {
+          if (typeof fbq === 'function') fbq('track', 'InitiateCheckout');
         });
       });
     })();
