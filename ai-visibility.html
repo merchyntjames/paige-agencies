@@ -691,40 +691,159 @@
   </section>
 
   <!-- ============================================================ -->
-  <!-- §9 — TESTIMONIALS WALL -->
+  <!-- §9 — TESTIMONIALS WALL (video carousel) -->
   <!-- ============================================================ -->
   <section class="bg-gray-50 py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-5">
-      <div class="text-center mb-12 fade-up">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">Customer Success Stories</p>
         <h2 class="text-3xl md:text-4xl font-bold text-navy">Why agencies switched to&nbsp;Paige</h2>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 fade-up">
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-sm text-gray-600 leading-relaxed mb-4">"I've been working with Merchynt's new AI tool 'Paige' and I am blown away by how it makes my life easier. The ease of use and ability at a glance to see how my pages are ranking has been a game changer for me."</p>
-          <p class="text-sm font-bold text-navy">Amber Goetz</p>
-          <p class="text-xs text-gray-400 mt-0.5">June 2025</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-sm text-gray-600 leading-relaxed mb-4">"Merchynt's features are unmatched and has a very user-friendly dashboard. Would highly recommend!"</p>
-          <p class="text-sm font-bold text-navy">Marketing Blendz</p>
-          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-sm text-gray-600 leading-relaxed mb-4">"Super easy tool to use. Very intuitive. The AI is the bomb."</p>
-          <p class="text-sm font-bold text-navy">Craig Broadhead</p>
-          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-sm text-gray-600 leading-relaxed mb-4">"I had searched for a similar tool to this before and couldn't find anything. This was so simple to use and informative. I love the heatmap."</p>
-          <p class="text-sm font-bold text-navy">Michael Boroviak</p>
-          <p class="text-xs text-gray-400 mt-0.5">July 2025</p>
+        <div class="flex items-center justify-center gap-2 mt-4 text-sm text-gray-500">
+          <span class="text-orange">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span><strong class="text-navy">4.9/5</strong> based on 900+ reviews</span>
         </div>
       </div>
-      <p class="text-center text-xs text-gray-400 mt-6 italic">[Replace with 1&ndash;2 agency-specific testimonials at build time]</p>
+
+      <div class="testimonial-carousel relative fade-up">
+        <!-- Slides container -->
+        <div class="overflow-hidden">
+          <div class="testimonial-track flex transition-transform duration-500 ease-out">
+
+            <!-- Slide 1: Josh Helms -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="XupJuAu-o0k" aria-label="Play video testimonial from Josh Helms">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/XupJuAu-o0k/hqdefault.jpg" alt="Josh Helms video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Josh Helms</p>
+                  <p class="text-sm text-gray-500">Owner</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: Alec Wagner -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="Se0iFX0TBag" aria-label="Play video testimonial from Alec Wagner">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/Se0iFX0TBag/hqdefault.jpg" alt="Alec Wagner video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Alec Wagner</p>
+                  <p class="text-sm text-gray-500">Practice Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: Aaron Thomas -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="fhiDRvl4Dj0" aria-label="Play video testimonial from Aaron Thomas">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/fhiDRvl4Dj0/hqdefault.jpg" alt="Aaron Thomas video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Aaron Thomas</p>
+                  <p class="text-sm text-gray-500">Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: Will Higgins -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="Kco0Od7JxU4" aria-label="Play video testimonial from Will Higgins">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/Kco0Od7JxU4/hqdefault.jpg" alt="Will Higgins video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Will Higgins</p>
+                  <p class="text-sm text-gray-500">Realtor</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: Ross Quade -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="SF0aefrkZv4" aria-label="Play video testimonial from Ross Quade">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/SF0aefrkZv4/hqdefault.jpg" alt="Ross Quade video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Ross Quade</p>
+                  <p class="text-sm text-gray-500">Apartment Locator</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6: Sealing Time Mobile Notaris -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="YIfIne5s2B4" aria-label="Play video testimonial from Sealing Time Mobile Notaris">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/YIfIne5s2B4/hqdefault.jpg" alt="Sealing Time Mobile Notaris video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Sealing Time Mobile Notaris</p>
+                  <p class="text-sm text-gray-500">Scheduling Coordinator</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrow controls -->
+        <button type="button" class="testimonial-prev absolute left-0 top-[28%] md:top-[35%] -translate-y-1/2 -ml-2 md:-ml-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all z-10" aria-label="Previous testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button type="button" class="testimonial-next absolute right-0 top-[28%] md:top-[35%] -translate-y-1/2 -mr-2 md:-mr-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all z-10" aria-label="Next testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Pagination dots -->
+        <div class="flex justify-center gap-2 mt-8">
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-blue transition-colors" data-index="0" aria-label="Show testimonial 1"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="1" aria-label="Show testimonial 2"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="2" aria-label="Show testimonial 3"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="3" aria-label="Show testimonial 4"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="4" aria-label="Show testimonial 5"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="5" aria-label="Show testimonial 6"></button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -974,15 +1093,18 @@
     })();
 
     // 5. Video modal — lazy-inject iframe on open, remove on close
+    //    Supports multiple videos via data-video-id on each .video-trigger
     (function() {
       const modal = document.getElementById('video-modal');
       const frameContainer = document.getElementById('video-modal-frame');
       const triggers = document.querySelectorAll('.video-trigger');
-      // YouTube embed with autoplay; rel=0 keeps related videos to same channel
-      const VIDEO_SRC = 'https://www.youtube.com/embed/nBVJ2Nzs21Y?autoplay=1&rel=0&si=_0aXYq8U48EXYyla';
+      // Default video for the hero (Paige demo) if no data-video-id present
+      const DEFAULT_VIDEO_ID = 'nBVJ2Nzs21Y';
 
-      function openModal() {
-        frameContainer.innerHTML = '<iframe class="w-full h-full" src="' + VIDEO_SRC + '" title="Paige demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+      function openModal(videoId) {
+        const id = videoId || DEFAULT_VIDEO_ID;
+        const src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+        frameContainer.innerHTML = '<iframe class="w-full h-full" src="' + src + '" title="Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
         modal.classList.add('open');
         document.body.classList.add('modal-open');
       }
@@ -992,10 +1114,56 @@
         modal.classList.remove('open');
         document.body.classList.remove('modal-open');
       }
-      triggers.forEach(t => t.addEventListener('click', openModal));
+      triggers.forEach(t => {
+        t.addEventListener('click', () => {
+          const videoId = t.getAttribute('data-video-id');
+          openModal(videoId);
+        });
+      });
       modal.querySelectorAll('[data-close-modal]').forEach(el => el.addEventListener('click', closeModal));
       document.addEventListener('keydown', e => {
         if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+      });
+    })();
+
+    // 6. Testimonial video carousel
+    (function() {
+      const carousel = document.querySelector('.testimonial-carousel');
+      if (!carousel) return;
+      const track = carousel.querySelector('.testimonial-track');
+      const slides = carousel.querySelectorAll('.testimonial-slide');
+      const prevBtn = carousel.querySelector('.testimonial-prev');
+      const nextBtn = carousel.querySelector('.testimonial-next');
+      const dots = carousel.querySelectorAll('.testimonial-dot');
+      let currentIndex = 0;
+      const slideCount = slides.length;
+
+      function update() {
+        track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+        dots.forEach((dot, i) => {
+          if (i === currentIndex) {
+            dot.classList.remove('bg-gray-300');
+            dot.classList.add('bg-blue');
+          } else {
+            dot.classList.remove('bg-blue');
+            dot.classList.add('bg-gray-300');
+          }
+        });
+      }
+
+      prevBtn && prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+        update();
+      });
+      nextBtn && nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slideCount;
+        update();
+      });
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          currentIndex = i;
+          update();
+        });
       });
     })();
   </script>
