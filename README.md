@@ -2,13 +2,17 @@
 
 Value-prop landing pages for the **May 2026 — Paige Trial Value Prop Campaign (Agencies)** Facebook campaign. One landing page per ad angle.
 
+**Primary domain:** [paigeforagencies.com](https://paigeforagencies.com)
+**Defensive domain (also owned, not in use):** hirepaige.com
+**Vercel fallback URL:** paige-agencies.vercel.app
+
 ## Live pages
 
 | Angle | URL | Status |
 |---|---|---|
-| AI Visibility | `/ai-visibility` | ✅ Built |
-| Save Time | `/save-time` | ✅ Built |
-| Boost Margins | `/boost-margins` | ✅ Built |
+| AI Visibility | https://paigeforagencies.com/ai-visibility | ✅ Built |
+| Save Time | https://paigeforagencies.com/save-time | ✅ Built |
+| Boost Margins | https://paigeforagencies.com/boost-margins | ✅ Built |
 
 ## Stack
 
@@ -16,18 +20,21 @@ Value-prop landing pages for the **May 2026 — Paige Trial Value Prop Campaign 
 - Tailwind CSS via CDN (no build step)
 - DM Sans via Google Fonts
 - Hosted on Vercel
+- Vercel Analytics (auto page views)
 
-## Brand tokens
+## Brand tokens (Paige palette — blue/teal-led)
 
 ```js
 {
-  navy:   '#0f007d',
-  pink:   '#dd0cf7',
-  blue:   '#0063fd',
-  purple: '#8b00cc',
-  green:  '#05c168',
-  orange: '#ff9e2c',
-  dark:   '#1c1f23',
+  navy:    '#0f007d',
+  blue:    '#0063fd',  // PRIMARY — CTAs
+  skyblue: '#31A8FF',
+  aqua:    '#5CE5DC',
+  pink:    '#dd0cf7',  // demoted — secondary accent only
+  purple:  '#8b00cc',
+  green:   '#05c168',
+  orange:  '#ff9e2c',
+  dark:    '#1c1f23',
 }
 ```
 
