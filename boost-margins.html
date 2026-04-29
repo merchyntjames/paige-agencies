@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$901 Profit Per Client, Every Month — Paige for Agencies</title>
+  <meta name="description" content="Charge clients $1,000/month. Spend $99/month on Paige. Keep $901 in profit, every client, every month. The highest-margin local SEO service line you can add to your agency. White-label included.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0f007d',
+            pink: '#dd0cf7',
+            blue: '#0063fd',     /* Primary Paige blue — CTAs */
+            skyblue: '#31A8FF',  /* Secondary accent */
+            aqua: '#5CE5DC',     /* Secondary accent (AI/tech feel) */
+            purple: '#8b00cc',
+            green: '#05c168',
+            orange: '#ff9e2c',
+            dark: '#1c1f23',
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-in { opacity: 0; transition: opacity 0.5s ease-out; }
+    .fade-in.visible { opacity: 1; }
+    .hero-animate { opacity: 0; transform: translateY(20px); animation: heroFadeUp 0.7s ease-out forwards; }
+    .hero-animate-1 { animation-delay: 0.1s; }
+    .hero-animate-2 { animation-delay: 0.3s; }
+    .hero-animate-3 { animation-delay: 0.5s; }
+    .hero-animate-4 { animation-delay: 0.7s; }
+    @keyframes heroFadeUp { to { opacity: 1; transform: translateY(0); } }
+    @keyframes subtlePulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(0, 99, 253, 0.4); } 50% { box-shadow: 0 0 0 8px rgba(0, 99, 253, 0); } }
+    .cta-pulse { animation: subtlePulse 2.5s ease-in-out 1.5s 3; }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+    .faq-answer.open { max-height: 400px; }
+    .faq-chevron { transition: transform 0.3s ease; }
+    .faq-chevron.rotated { transform: rotate(180deg); }
+    /* Video play button */
+    .play-btn {
+      width: 80px; height: 80px; border-radius: 9999px;
+      background: rgba(0, 99, 253, 0.95);
+      box-shadow: 0 8px 32px rgba(0, 99, 253, 0.35);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s ease;
+    }
+    .play-btn:hover { transform: scale(1.05); }
+    /* Video modal */
+    #video-modal { display: none; }
+    #video-modal.open { display: flex; }
+    #video-modal.open .modal-backdrop { animation: modalFadeIn 0.25s ease-out; }
+    #video-modal.open .modal-card { animation: modalPopIn 0.3s ease-out; }
+    @keyframes modalFadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes modalPopIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+    body.modal-open { overflow: hidden; }
+    @media (prefers-reduced-motion: reduce) {
+      .fade-up, .fade-in { opacity: 1; transform: none; transition: none; }
+      .hero-animate { opacity: 1; transform: none; animation: none; }
+      .cta-pulse { animation: none; }
+      .faq-answer { transition: none; }
+      .play-btn { transition: none; }
+      #video-modal.open .modal-backdrop, #video-modal.open .modal-card { animation: none; }
+    }
+  </style>
+
+  <!-- Vercel Analytics (static HTML install — auto-tracks page views) -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body class="bg-white text-dark font-sans antialiased">
+
+  <!-- ============================================================ -->
+  <!-- HEADER (logo only, no nav per LP CRO best practice) -->
+  <!-- ============================================================ -->
+  <header>
+    <div class="max-w-7xl mx-auto px-5 py-5">
+      <img src="assets/paige-logo-color.svg" alt="Paige" class="w-[120px] h-auto hero-animate hero-animate-1">
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- §1 — HERO (2-col 50/50 with video placeholder) -->
+  <!-- ============================================================ -->
+  <section>
+    <div class="max-w-7xl mx-auto px-5 pt-6 pb-16 md:pt-12 md:pb-24">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <!-- Left: copy -->
+        <div>
+          <div class="inline-block bg-blue/10 rounded-full px-5 py-2 mb-5 hero-animate hero-animate-1">
+            <p class="text-sm md:text-base leading-snug">
+              <span class="text-blue font-bold">MEET PAIGE:</span>
+              <span class="text-dark"> The AI Worker Behind The Highest-Margin Service Line In Local SEO</span>
+            </p>
+          </div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-navy hero-animate hero-animate-1">
+            $901 profit per client. <span class="text-blue">Every month.</span>
+          </h1>
+          <p class="mt-5 text-lg md:text-xl text-gray-600 leading-relaxed hero-animate hero-animate-2">
+            Most agencies charge $500&ndash;1,500/month for GBP services. Paige costs you $99 per profile, fully managed, white-label included. Sell at $1,000, spend $99, keep $901 &mdash; every client, every month, at any scale.
+          </p>
+          <div class="mt-7 hero-animate hero-animate-3">
+            <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link cta-pulse inline-block bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+              START FREE TRIAL
+            </a>
+          </div>
+          <p class="mt-3 text-sm text-gray-400 hero-animate hero-animate-4">
+            Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime
+          </p>
+        </div>
+        <!-- Right: video trigger (opens modal) -->
+        <div class="hero-animate hero-animate-2">
+          <button type="button" data-video-id="nBVJ2Nzs21Y" class="video-trigger w-full aspect-video bg-navy bg-cover bg-center rounded-2xl shadow-2xl border border-gray-100 flex items-center justify-center relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-blue/40" style="background-image: url('assets/hero-thumbnail.webp')" aria-label="Play Paige demo video">
+            <!-- Subtle dark overlay on hover only — keeps thumbnail readable, lifts play button on hover -->
+            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors pointer-events-none"></div>
+            <!-- Play button -->
+            <span class="play-btn relative z-10 group-hover:scale-110 transition-transform">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </button>
+          <!-- Trust strip (under video) -->
+          <div class="mt-4 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-sm text-gray-500">
+            <span class="flex items-center gap-1.5"><span class="text-orange">&#9733;</span> 4.9/5 rating</span>
+            <span class="text-gray-300 hidden sm:inline">&middot;</span>
+            <span>900+ customer reviews</span>
+            <span class="text-gray-300 hidden sm:inline">&middot;</span>
+            <span>10,000+ GBPs managed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §2 — SOCIAL PROOF BAR (As Featured In) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-8 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-5">
+      <p class="text-xs text-gray-400 uppercase tracking-widest text-center mb-5 fade-in">As Featured In</p>
+      <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-50">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/66b488ec150ee2998311070e_Us%20chamber%20of%20commerce.svg" alt="US Chamber of Commerce" class="h-6 md:h-8 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7cae98d53e89403b2e4_yahoo-logo.svg" alt="Yahoo" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca83d4151d36fb7152_martech-logo.svg" alt="MarTech" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca092379a138f8293e_Techbullion.svg" alt="TechBullion" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7cac2d208f7b685b93b_business-news-logo.svg" alt="Business News" class="h-5 md:h-7 fade-in">
+        <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca50e49af103d357a2_spectrum-logo.svg" alt="Spectrum" class="h-5 md:h-7 fade-in">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §3 — VALUE PROP DEEP DIVE / Why It Works (the meat) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <h2 class="text-4xl md:text-5xl font-bold text-navy leading-tight">The margin math reshaping<br>agency P&amp;Ls in 2026.</h2>
+      </div>
+      <div class="fade-up text-lg text-gray-600 leading-relaxed space-y-5">
+        <p>For most agencies, GBP services have always been the lowest-margin line on the menu. Four to six hours per client per month, plus a VA or in-house specialist, plus tools, plus management overhead &mdash; on a $1,000 retainer, you're lucky to keep $300.</p>
+        <p>Paige flips that math entirely. Here's how every cost lever in the equation moves in your favor:</p>
+      </div>
+      <div class="mt-8 grid md:grid-cols-2 gap-5 fade-up">
+        <!-- Card 1: Per-client unit cost -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue">
+            <line x1="12" y1="1" x2="12" y2="23"/>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Per-Client Unit Cost</h3>
+          <p class="text-gray-600 leading-relaxed">Most agencies pay $300&ndash;1,500/month per client to deliver GBP services &mdash; VA wages, software stacks, training overhead, management time. Paige is a flat $99 per profile, fully managed, white-label included. <em>That's a 70&ndash;90% cut to your delivery cost line, with zero quality drop.</em></p>
+        </div>
+        <!-- Card 2: Capacity Without Headcount -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+            <polyline points="17 6 23 6 23 12"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Capacity Without Headcount</h3>
+          <p class="text-gray-600 leading-relaxed">At 4&ndash;6 hours per client per month, your team caps out around 10&ndash;15 clients before you need to hire. With Paige, your existing team can manage 50+ profiles without breaking. <em>Capacity goes up. Headcount stays flat. Margins compound.</em></p>
+        </div>
+        <!-- Card 3: Expansion Revenue -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-aqua">
+            <line x1="12" y1="19" x2="12" y2="5"/>
+            <polyline points="5 12 12 5 19 12"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Pure Expansion Revenue</h3>
+          <p class="text-gray-600 leading-relaxed">If you don't offer GBP today, Paige is pure expansion revenue at 90%+ margin per client &mdash; no new hires, no new tools, no new processes. <em>Add the service line, sell it to your existing book, and capture full retainer on every account that adds it.</em></p>
+        </div>
+        <!-- Card 4: No Hiring Friction -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="8.5" cy="7" r="4"/>
+            <line x1="18" y1="8" x2="23" y2="13"/>
+            <line x1="23" y1="8" x2="18" y2="13"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Zero Hiring Friction</h3>
+          <p class="text-gray-600 leading-relaxed">Hiring a GBP specialist or VA means recruiting, training, payroll, benefits, PTO, performance management, and the risk of a bad hire. <em>Paige skips all of it. No hiring overhead. No firing risk. Onboarding takes 15 minutes.</em></p>
+        </div>
+        <!-- Card 5: Predictable Unit Economics -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="9" y1="21" x2="9" y2="9"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Predictable Unit Economics</h3>
+          <p class="text-gray-600 leading-relaxed">Whether you serve 1 client or 100, the math is the same. $99 in, $500&ndash;1,500 out. <em>No surprise costs at scale. No "we need to renegotiate the VA contract" moments. Your P&amp;L gets shockingly predictable.</em></p>
+        </div>
+        <!-- Card 6: Compound Scaling -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue">
+            <line x1="12" y1="20" x2="12" y2="10"/>
+            <line x1="18" y1="20" x2="18" y2="4"/>
+            <line x1="6" y1="20" x2="6" y2="16"/>
+          </svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Compound Scaling</h3>
+          <p class="text-gray-600 leading-relaxed">Most agencies add clients but margins stay flat &mdash; every new client also adds proportional labor cost. <em>With Paige, every new client adds almost the full retainer to your bottom line. Margins compound. Your business gets more profitable with every signed contract.</em></p>
+        </div>
+      </div>
+      <div class="mt-10 fade-up text-lg text-gray-600 leading-relaxed space-y-4">
+        <p>Charge $1,000. Spend $99. Keep $901. <strong class="text-dark">Every client. Every month. At any scale.</strong></p>
+        <p>The agencies winning on margin in 2026 aren't the ones with the most clients on the roster &mdash; they're the ones with the highest profit per client. <strong class="text-dark">Paige is how you become one.</strong></p>
+      </div>
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          START FREE TRIAL
+        </a>
+        <p class="mt-3 text-sm text-gray-400">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §4 — SOLUTION INTRO (2-col: tiles + text) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-5">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+
+        <!-- LEFT: 6 service tiles (3 × 2 grid) -->
+        <div class="grid grid-cols-3 gap-3 md:gap-4 fade-up">
+
+          <!-- Tile 1: AI SEO -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue mx-auto">
+              <path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3L12 3z"/>
+              <path d="M5 3v4"/>
+              <path d="M3 5h4"/>
+              <path d="M19 17v4"/>
+              <path d="M17 19h4"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">AI Search Optimization</p>
+          </div>
+
+          <!-- Tile 2: Profile Optimization -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue mx-auto">
+              <path d="M3 9l1-5h16l1 5"/>
+              <path d="M3 9v12h18V9"/>
+              <path d="M9 21v-6h6v6"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Profile Optimization</p>
+          </div>
+
+          <!-- Tile 3: Reviews Management -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-aqua mx-auto">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Reviews Management</p>
+          </div>
+
+          <!-- Tile 4: Before/After Heatmaps -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-aqua mx-auto">
+              <rect x="3" y="3" width="7" height="7"/>
+              <rect x="14" y="3" width="7" height="7"/>
+              <rect x="3" y="14" width="7" height="7"/>
+              <rect x="14" y="14" width="7" height="7"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Before/After Heatmaps</p>
+          </div>
+
+          <!-- Tile 5: Keyword Tracking -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green mx-auto">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Keyword Tracking</p>
+          </div>
+
+          <!-- Tile 6: Video Production -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue mx-auto">
+              <rect x="2" y="2" width="20" height="20" rx="2"/>
+              <path d="M7 2v20"/>
+              <path d="M17 2v20"/>
+              <path d="M2 12h20"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Video Production</p>
+          </div>
+
+          <!-- Tile 7: Citation Management -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green mx-auto">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Citation Management</p>
+          </div>
+
+          <!-- Tile 8: Social Media Posts -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue mx-auto">
+              <line x1="4" y1="9" x2="20" y2="9"/>
+              <line x1="4" y1="15" x2="20" y2="15"/>
+              <line x1="10" y1="3" x2="8" y2="21"/>
+              <line x1="16" y1="3" x2="14" y2="21"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Social Media Posts</p>
+          </div>
+
+          <!-- Tile 9: Performance Reporting -->
+          <div class="bg-white rounded-xl p-4 md:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue mx-auto">
+              <line x1="12" y1="20" x2="12" y2="10"/>
+              <line x1="18" y1="20" x2="18" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="16"/>
+            </svg>
+            <p class="text-xs md:text-sm font-bold text-navy uppercase tracking-wide mt-3 leading-tight">Performance Reporting</p>
+          </div>
+
+        </div>
+
+        <!-- RIGHT: text content (left-aligned) -->
+        <div class="fade-up">
+          <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Meet Paige. The AI-powered SEO specialist your agency hires for just $99 a&nbsp;month.</h2>
+          <p class="mt-6 text-lg text-gray-600 leading-relaxed">Paige isn't another tool in your stack. She's an autonomous AI worker that runs your clients' local SEO from end to end. And all of that structured data is used to train AI engines so your clients get cited more often.</p>
+          <p class="mt-4 text-lg text-gray-600 leading-relaxed"><strong class="text-dark">Set up in 15 mins. Maintain in 1&ndash;2 hrs a week. Get started for free.</strong></p>
+          <div class="mt-8">
+            <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+              START FREE TRIAL
+            </a>
+            <p class="mt-3 text-sm text-gray-400">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §5 — CUSTOMER RESULTS (carousel: 3 case studies) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">Customer Results</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Real businesses. Real ranking gains. Zero human&nbsp;labor.</h2>
+      </div>
+
+      <div class="case-study-carousel relative fade-up">
+        <!-- Slides container -->
+        <div class="overflow-hidden">
+          <div class="case-study-track flex transition-transform duration-500 ease-out">
+
+            <!-- Slide 1: Rooster Roofers -->
+            <div class="case-study-slide w-full flex-shrink-0 px-2 md:px-10">
+              <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="bg-gradient-to-br from-navy via-blue to-skyblue rounded-2xl p-10 text-white text-center">
+                  <p class="text-sm uppercase tracking-widest opacity-70">Ranking improvement</p>
+                  <p class="text-6xl md:text-7xl font-bold mt-3 mb-2">19,862<span class="text-aqua">%</span></p>
+                  <p class="text-sm opacity-80 mb-6">in 90 days</p>
+                  <div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/20">
+                    <div>
+                      <p class="text-2xl font-bold">29</p>
+                      <p class="text-xs opacity-70 mt-1">leads generated</p>
+                    </div>
+                    <div>
+                      <p class="text-2xl font-bold">$520K</p>
+                      <p class="text-xs opacity-70 mt-1">estimated value</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-xs text-gray-400 uppercase tracking-widest mb-2">Contractor</p>
+                  <h3 class="text-2xl font-bold text-navy mb-4">Rooster Roofers, Denver CO</h3>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">Started at #47 in their local map pack. Ninety days later, Paige had them at #1.</p>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">The result: 29 lead actions worth an estimated $520,000 in pipeline. Plus AI search visibility &mdash; Rooster Roofers now surfaces in AI-generated local search alongside the traditional ranking gain.</p>
+                  <p class="text-lg text-dark font-semibold">Paige did the entire optimization. Their team did nothing.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: The Hybrid Clinic Wellness Center -->
+            <div class="case-study-slide w-full flex-shrink-0 px-2 md:px-10">
+              <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="bg-gradient-to-br from-navy via-blue to-skyblue rounded-2xl p-10 text-white text-center">
+                  <p class="text-sm uppercase tracking-widest opacity-70">Ranking improvement</p>
+                  <p class="text-6xl md:text-7xl font-bold mt-3 mb-2">2,674<span class="text-aqua">%</span></p>
+                  <p class="text-sm opacity-80 mb-6">in 30 days</p>
+                  <div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/20">
+                    <div>
+                      <p class="text-2xl font-bold">2,768</p>
+                      <p class="text-xs opacity-70 mt-1">lead actions</p>
+                    </div>
+                    <div>
+                      <p class="text-2xl font-bold">$415K</p>
+                      <p class="text-xs opacity-70 mt-1">estimated value</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-xs text-gray-400 uppercase tracking-widest mb-2">Medical Clinic</p>
+                  <h3 class="text-2xl font-bold text-navy mb-4">The Hybrid Clinic Wellness Center</h3>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">Ranked outside the local map pack for their core wellness terms. Thirty days later, Paige had them in the top 3 for holistic health, weight loss, and massage therapy.</p>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">The result: 2,768 lead actions worth an estimated $415,200 in pipeline. Plus AI search visibility &mdash; the clinic now surfaces in ChatGPT and Llama responses for holistic health queries.</p>
+                  <p class="text-lg text-dark font-semibold">Paige did the entire optimization. Their team did nothing.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: Home Crush -->
+            <div class="case-study-slide w-full flex-shrink-0 px-2 md:px-10">
+              <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="bg-gradient-to-br from-navy via-blue to-skyblue rounded-2xl p-10 text-white text-center">
+                  <p class="text-sm uppercase tracking-widest opacity-70">Ranking improvement</p>
+                  <p class="text-6xl md:text-7xl font-bold mt-3 mb-2">7,320<span class="text-aqua">%</span></p>
+                  <p class="text-sm opacity-80 mb-6">in 30 days</p>
+                  <div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/20">
+                    <div>
+                      <p class="text-2xl font-bold">225</p>
+                      <p class="text-xs opacity-70 mt-1">customer actions</p>
+                    </div>
+                    <div>
+                      <p class="text-2xl font-bold">$1.1M</p>
+                      <p class="text-xs opacity-70 mt-1">estimated value</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-xs text-gray-400 uppercase tracking-widest mb-2">Retail</p>
+                  <h3 class="text-2xl font-bold text-navy mb-4">Home Crush</h3>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">Ranked outside the top 10 for their primary keywords across the target area. Thirty days later, Paige had them in the top 3 across the board.</p>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-4">The result: 225 customer actions worth an estimated $1,112,500 in revenue. Plus AI search visibility &mdash; Home Crush now appears in both traditional and AI-generated search results.</p>
+                  <p class="text-lg text-dark font-semibold">Paige did the entire optimization. Their team did nothing.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrow controls -->
+        <button type="button" class="case-study-prev absolute left-0 top-1/2 -translate-y-1/2 -ml-2 md:-ml-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all" aria-label="Previous case study">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+        <button type="button" class="case-study-next absolute right-0 top-1/2 -translate-y-1/2 -mr-2 md:-mr-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all" aria-label="Next case study">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+
+        <!-- Pagination dots -->
+        <div class="flex justify-center gap-2 mt-8">
+          <button type="button" class="case-study-dot w-2.5 h-2.5 rounded-full bg-blue transition-colors" data-index="0" aria-label="Show case study 1"></button>
+          <button type="button" class="case-study-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="1" aria-label="Show case study 2"></button>
+          <button type="button" class="case-study-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="2" aria-label="Show case study 3"></button>
+        </div>
+      </div>
+
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          START FREE TRIAL
+        </a>
+        <p class="mt-3 text-sm text-gray-400">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §6 — HOW PAIGE WORKS (3 steps, 1-col stacked) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">How It Works</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">15 minutes to set up. Managed in just 1&ndash;2 hours a week. Fully white-labeled under your agency's brand.</h2>
+      </div>
+      <div class="space-y-5">
+        <!-- Step 1: Connect -->
+        <div class="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up flex items-start gap-5 md:gap-8">
+          <div class="w-14 h-14 rounded-full bg-blue/10 flex items-center justify-center flex-shrink-0">
+            <span class="text-2xl md:text-3xl font-bold text-blue">1</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-lg md:text-xl text-navy mb-2">Connect A Client's GBP</h3>
+            <p class="text-gray-600 leading-relaxed">Paige plugs directly into your client's Google Business Profile using your agency's name and brand. She'll pull everything she needs to know about their business automatically.</p>
+            <span class="inline-block mt-3 text-xs font-semibold text-blue bg-blue/10 px-3 py-1 rounded-full">~15 minutes</span>
+          </div>
+        </div>
+        <!-- Step 2: Set Preferences -->
+        <div class="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up flex items-start gap-5 md:gap-8" style="transition-delay:0.1s">
+          <div class="w-14 h-14 rounded-full bg-pink/10 flex items-center justify-center flex-shrink-0">
+            <span class="text-2xl md:text-3xl font-bold text-pink">2</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-lg md:text-xl text-navy mb-2">Set Your Preferences</h3>
+            <p class="text-gray-600 leading-relaxed">Customize everything for each client &mdash; description, categories, services, tone of voice. Paige honors your specs while following local SEO best practices automatically.</p>
+            <span class="inline-block mt-3 text-xs font-semibold text-pink bg-pink/10 px-3 py-1 rounded-full">Your specs</span>
+          </div>
+        </div>
+        <!-- Step 3: Leave the Rest to Paige -->
+        <div class="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 fade-up flex items-start gap-5 md:gap-8" style="transition-delay:0.2s">
+          <div class="w-14 h-14 rounded-full bg-green/10 flex items-center justify-center flex-shrink-0">
+            <span class="text-2xl md:text-3xl font-bold text-green">3</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-lg md:text-xl text-navy mb-2">Leave The Rest To Paige</h3>
+            <p class="text-gray-600 leading-relaxed">Daily posts. Geotagged photos. Instant review responses. Citation cleanup across 62 directories. YouTube videos. Social posts. Reporting. All done.</p>
+            <span class="inline-block mt-3 text-xs font-semibold text-green bg-green/10 px-3 py-1 rounded-full">Hands off</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §7 — PRICING CTA / TESTIMONIALS (navy bg) -->
+  <!-- ============================================================ -->
+  <section class="bg-navy py-16 md:py-24 relative overflow-hidden">
+    <!-- background flourish -->
+    <div class="absolute inset-0 opacity-30 pointer-events-none" style="background-image: radial-gradient(circle at 15% 30%, rgba(92,229,220,0.3), transparent 40%), radial-gradient(circle at 85% 70%, rgba(0,99,253,0.4), transparent 40%);"></div>
+    <div class="max-w-6xl mx-auto px-5 relative z-10">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Ready to put Paige to work for your&nbsp;clients?</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
+
+        <!-- LEFT: 3 testimonial tiles stacked (light grey bg so pricing pops) -->
+        <div class="space-y-4 fade-up">
+          <!-- Amber Goetz -->
+          <div class="bg-gray-50 rounded-xl p-5 md:p-6 shadow-md">
+            <div class="text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-sm md:text-base text-gray-600 leading-relaxed mb-4">"I've been working with Merchynt's new AI tool 'Paige' and <strong class="text-dark">I am blown away by how it makes my life easier!</strong> The ease of use and ability at a glance to see how my pages are ranking has been a game changer for me."</p>
+            <div class="flex items-center gap-3">
+              <img src="assets/amber-goetz.webp" alt="Amber Goetz" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+              <p class="text-sm font-bold text-navy">Amber Goetz</p>
+            </div>
+          </div>
+          <!-- Jason Mitchell -->
+          <div class="bg-gray-50 rounded-xl p-5 md:p-6 shadow-md">
+            <div class="text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-sm md:text-base text-gray-600 leading-relaxed mb-4">"Paige has made managing my GBP completely hands-off and effective. I've had such a positive experience that I'm planning to start offering this to my clients in the very near future. <strong class="text-dark">It's a must-have for local SEO.</strong>"</p>
+            <div class="flex items-center gap-3">
+              <img src="assets/jason-mitchell.webp" alt="Jason Mitchell" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+              <p class="text-sm font-bold text-navy">Jason Mitchell</p>
+            </div>
+          </div>
+          <!-- Anthony B. -->
+          <div class="bg-gray-50 rounded-xl p-5 md:p-6 shadow-md">
+            <div class="text-orange mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-sm md:text-base text-gray-600 leading-relaxed mb-4">"I find Paige incredibly helpful for getting my clients to rank better on Google Business. The software has been a game-changer and actually works really well. <strong class="text-dark">The initial setup is super easy, just follow along, read, and click, and you're good to go in minutes.</strong>"</p>
+            <div class="flex items-center gap-3">
+              <img src="assets/anthony-b.webp" alt="Anthony B." class="w-10 h-10 rounded-full object-cover bg-gray-200">
+              <p class="text-sm font-bold text-navy">Anthony B.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Pricing card + Contact Us secondary CTA -->
+        <div class="fade-up">
+          <div class="bg-white rounded-2xl border-2 border-blue/20 p-8 md:p-10 shadow-xl">
+            <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Per profile, per month</p>
+            <p class="text-6xl md:text-7xl font-bold text-navy">$99<span class="text-2xl text-gray-400 font-normal">/mo</span></p>
+            <ul class="mt-6 space-y-3 text-left">
+              <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span>Full automation, top to bottom</span></li>
+              <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span>White-label included</span></li>
+              <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span>Unlimited team users</span></li>
+              <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span>15-minute setup</span></li>
+              <li class="flex gap-3 items-start text-gray-700"><span class="text-green flex-shrink-0 mt-1">&#10003;</span><span>Cancel anytime</span></li>
+            </ul>
+            <div class="mt-8">
+              <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link block w-full bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-200 text-center">
+                START FREE TRIAL
+              </a>
+              <p class="mt-3 text-sm text-gray-400 text-center">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+            </div>
+          </div>
+          <!-- Secondary CTA: Contact Us for custom pricing -->
+          <div class="mt-6 text-center">
+            <p class="text-white/70 text-sm mb-2">Onboarding 5+ profiles right away?</p>
+            <a href="mailto:hello@merchynt.com?subject=Agency%20Custom%20Pricing%20Inquiry" class="inline-flex items-center gap-2 text-aqua hover:text-white border-b border-aqua/40 hover:border-white pb-0.5 transition-colors text-sm font-semibold">
+              Contact us for custom pricing
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §8 — THE MATH (compare your options) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">The Math You're Going To Love</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">More clients. More margin. Less&nbsp;stress.</h2>
+      </div>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="text-left p-4 md:p-5 text-sm font-semibold text-gray-500"></th>
+              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500">Do It Yourself</th>
+              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500">Employees / VAs</th>
+              <th class="text-center p-4 md:p-5 bg-blue/5">
+                <img src="assets/paige-logo-color.svg" alt="Paige" class="w-[80px] h-auto mx-auto">
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100 text-sm">
+            <tr>
+              <td class="p-4 md:p-5 font-medium text-navy">Your time spent per client</td>
+              <td class="text-center p-4 text-orange">6&ndash;8 hours/week</td>
+              <td class="text-center p-4 text-orange">4&ndash;6 hours/week</td>
+              <td class="text-center p-4 text-green bg-blue/5 font-semibold">1&ndash;2 hours/week</td>
+            </tr>
+            <tr>
+              <td class="p-4 md:p-5 font-medium text-navy">Max clients you can serve</td>
+              <td class="text-center p-4 text-orange">3&ndash;5</td>
+              <td class="text-center p-4 text-orange">30&ndash;50</td>
+              <td class="text-center p-4 text-green bg-blue/5 font-semibold">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="p-4 md:p-5 font-medium text-navy">Operational complexity</td>
+              <td class="text-center p-4 text-green">Low</td>
+              <td class="text-center p-4 text-orange">High (hire, train, manage, payroll)</td>
+              <td class="text-center p-4 text-green bg-blue/5 font-semibold">Low</td>
+            </tr>
+            <tr>
+              <td class="p-4 md:p-5 font-medium text-navy">Cost per client / month</td>
+              <td class="text-center p-4 text-orange">Your time</td>
+              <td class="text-center p-4 text-orange">$300&ndash;1,500</td>
+              <td class="text-center p-4 text-green bg-blue/5 font-semibold">$99</td>
+            </tr>
+            <tr>
+              <td class="p-4 md:p-5 font-medium text-navy">Client outcomes</td>
+              <td class="text-center p-4 text-green">Good-to-Great</td>
+              <td class="text-center p-4 text-orange">Variable</td>
+              <td class="text-center p-4 text-green bg-blue/5 font-semibold">Excellent</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="p-4 md:p-5 font-bold text-navy">Profit per $1,000/mo retainer</td>
+              <td class="text-center p-4 font-bold text-green">$1,000</td>
+              <td class="text-center p-4 font-bold text-orange">$200 &ndash; $300</td>
+              <td class="text-center p-4 font-bold text-blue bg-blue/10">$800+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-center text-xl font-semibold text-navy italic mt-8 fade-up max-w-3xl mx-auto">You're not buying a tool. You're hiring an AI-powered expert that's faster, cheaper, and more productive than her human counterparts.</p>
+      <div class="text-center mt-10 fade-up">
+        <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-blue hover:bg-blue/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          START FREE TRIAL
+        </a>
+        <p class="mt-3 text-sm text-gray-400">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §9 — TESTIMONIALS WALL (video carousel) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">Agency Success Stories</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Why 500+ agencies have already hired&nbsp;Paige</h2>
+        <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-600">
+          <img src="assets/testimonial-cluster.webp" alt="Avatars of customer reviewers" class="h-9 w-auto">
+          <span><strong class="text-navy">4.9/5 stars</strong> across 900+ reviews</span>
+        </div>
+      </div>
+
+      <div class="testimonial-carousel relative fade-up">
+        <!-- Slides container -->
+        <div class="overflow-hidden">
+          <div class="testimonial-track flex transition-transform duration-500 ease-out">
+
+            <!-- Slide 1: Josh Helms -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="XupJuAu-o0k" aria-label="Play video testimonial from Josh Helms">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/XupJuAu-o0k/hqdefault.jpg" alt="Josh Helms video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Josh Helms</p>
+                  <p class="text-sm text-gray-500">Owner</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: Alec Wagner -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="Se0iFX0TBag" aria-label="Play video testimonial from Alec Wagner">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/Se0iFX0TBag/hqdefault.jpg" alt="Alec Wagner video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Alec Wagner</p>
+                  <p class="text-sm text-gray-500">Practice Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: Aaron Thomas -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="fhiDRvl4Dj0" aria-label="Play video testimonial from Aaron Thomas">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/fhiDRvl4Dj0/hqdefault.jpg" alt="Aaron Thomas video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Aaron Thomas</p>
+                  <p class="text-sm text-gray-500">Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: Will Higgins -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="Kco0Od7JxU4" aria-label="Play video testimonial from Will Higgins">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/Kco0Od7JxU4/hqdefault.jpg" alt="Will Higgins video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Will Higgins</p>
+                  <p class="text-sm text-gray-500">Realtor</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: Ross Quade -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="SF0aefrkZv4" aria-label="Play video testimonial from Ross Quade">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/SF0aefrkZv4/hqdefault.jpg" alt="Ross Quade video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Ross Quade</p>
+                  <p class="text-sm text-gray-500">Apartment Locator</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6: Sealing Time Mobile Notaris -->
+            <div class="testimonial-slide w-full flex-shrink-0 px-2 md:px-12">
+              <div class="max-w-2xl mx-auto">
+                <button type="button" class="video-trigger w-full block group" data-video-id="YIfIne5s2B4" aria-label="Play video testimonial from Sealing Time Mobile Notaris">
+                  <div class="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://i.ytimg.com/vi/YIfIne5s2B4/hqdefault.jpg" alt="Sealing Time Mobile Notaris video testimonial" class="w-full h-full object-cover" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/30 transition-colors">
+                      <span class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></span>
+                    </div>
+                  </div>
+                </button>
+                <div class="text-center mt-5">
+                  <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <p class="font-bold text-navy text-lg">Sealing Time Mobile Notaris</p>
+                  <p class="text-sm text-gray-500">Scheduling Coordinator</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrow controls -->
+        <button type="button" class="testimonial-prev absolute left-0 top-[28%] md:top-[35%] -translate-y-1/2 -ml-2 md:-ml-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all z-10" aria-label="Previous testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button type="button" class="testimonial-next absolute right-0 top-[28%] md:top-[35%] -translate-y-1/2 -mr-2 md:-mr-6 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-navy hover:shadow-lg hover:scale-105 transition-all z-10" aria-label="Next testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Pagination dots -->
+        <div class="flex justify-center gap-2 mt-8">
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-blue transition-colors" data-index="0" aria-label="Show testimonial 1"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="1" aria-label="Show testimonial 2"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="2" aria-label="Show testimonial 3"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="3" aria-label="Show testimonial 4"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="4" aria-label="Show testimonial 5"></button>
+          <button type="button" class="testimonial-dot w-2.5 h-2.5 rounded-full bg-gray-300 transition-colors" data-index="5" aria-label="Show testimonial 6"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §10 — PRICING -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <!-- Heading + subhead (centered, narrower than section) -->
+      <div class="text-center max-w-3xl mx-auto fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Simple pricing. Designed to help agencies scale&nbsp;profitably.</h2>
+        <p class="mt-5 text-base md:text-lg text-gray-600 leading-relaxed">Most agencies charge clients <strong class="text-navy">$500&ndash;1,500/mo</strong> for GBP services. Paige costs you <strong class="text-blue">just $99 per profile.</strong> The math works at any scale.</p>
+      </div>
+
+      <!-- Pricing card: navy/blue gradient with white text -->
+      <div class="bg-gradient-to-br from-navy via-blue to-skyblue rounded-2xl p-8 md:p-10 mt-12 fade-up shadow-2xl text-white text-center max-w-2xl mx-auto relative overflow-hidden">
+        <!-- subtle decorative accent -->
+        <div class="absolute inset-0 opacity-25 pointer-events-none" style="background-image: radial-gradient(circle at 85% 20%, rgba(92,229,220,0.4), transparent 45%);"></div>
+        <div class="relative z-10">
+          <p class="text-xs uppercase tracking-widest text-white/70 mb-2">Per profile, per month</p>
+          <p class="text-6xl md:text-7xl font-bold text-white">$99<span class="text-2xl text-white/70 font-normal">/mo</span></p>
+          <ul class="mt-8 space-y-3 text-left max-w-xs mx-auto">
+            <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Full automation, top to bottom</span></li>
+            <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>White-label included</span></li>
+            <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Unlimited team users</span></li>
+            <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>15-minute setup</span></li>
+            <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Cancel anytime</span></li>
+          </ul>
+          <div class="mt-8">
+            <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link block w-full bg-white hover:bg-gray-50 text-navy font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-200 text-center">
+              START FREE TRIAL
+            </a>
+            <p class="mt-3 text-sm text-white/70">Free Trial &middot; Fully White-Labeled &middot; Cancel Anytime</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary CTA: Contact Us for custom pricing -->
+      <div class="mt-6 text-center fade-up">
+        <p class="text-gray-500 text-sm mb-1">Onboarding 5+ profiles right away?</p>
+        <a href="mailto:hello@merchynt.com?subject=Agency%20Custom%20Pricing%20Inquiry" class="inline-flex items-center gap-2 text-blue hover:text-navy border-b border-blue/40 hover:border-navy pb-0.5 transition-colors text-sm font-semibold">
+          Contact us for custom pricing
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <!-- 3 stat tiles -->
+      <div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5 fade-up">
+        <div class="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <p class="text-4xl md:text-5xl font-bold text-blue">500+</p>
+          <p class="mt-3 text-base font-semibold text-navy">Agencies Using Paige</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <p class="text-4xl md:text-5xl font-bold text-skyblue">10,000+</p>
+          <p class="mt-3 text-base font-semibold text-navy">Profiles Optimized</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <p class="text-4xl md:text-5xl font-bold text-aqua">900+</p>
+          <p class="mt-3 text-base font-semibold text-navy">Customer Reviews</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §11 — FAQ (agency-focused) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Frequently Asked Questions</h2>
+        <p class="mt-4 text-base md:text-lg text-gray-600 leading-relaxed">Here are the most common questions agencies ask about Paige. Don't see yours? Email us at <a href="mailto:support@merchynt.com" class="text-blue hover:text-navy underline">support@merchynt.com</a> &mdash; we're here to help.</p>
+      </div>
+      <div class="space-y-3 fade-up" id="faq-list">
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Is there a free trial for Paige?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes. We offer a 3-day free trial. Three days may seem short, but it only takes 15 minutes to fully configure Paige on a real client profile &mdash; most agencies see Paige earn its keep within those three days. Over 7 out of 10 trials convert to paying customers.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can I manage multiple clients in one Paige account?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes. Add as many of your clients' Google Business Profiles as you want &mdash; they all live in the same Paige account. Each profile is billed at $99/month. If your clients use different Google email accounts to manage their GBPs, you can connect all of them to the same Paige account so everything stays in one place.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can I white-label Paige for my clients?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Absolutely. Paige was built with a "White-Label First" philosophy. Custom domain, your logo, your brand colors, emails sent from your address &mdash; you can even rename Paige to whatever you want. Your clients see your agency, not Merchynt. 500+ agencies white-label Paige today.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can I really sell GBP services for $1,000/month?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Many of the 500+ agencies using Paige sell GBP management at $500&ndash;1,500/month, with $1,000 the most common price point. Some go higher when bundled with broader local SEO retainers. The reason it works: GBP work is one of the highest-leverage things you can do for a local client &mdash; rankings, calls, leads, revenue all hinge on it. Clients pay for outcomes, not hours, and Paige produces the outcomes consistently. White-labeling means clients see your agency's brand, not Merchynt's, so the price you set is yours to defend.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How does Paige compare to BrightLocal, LocalViking, or Whitespark?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">BrightLocal, LocalViking, and Whitespark are dashboards your team logs into to do the work. Paige is the worker. Your team doesn't schedule posts, optimize profiles, or manage reports &mdash; Paige does it all autonomously. Same outputs, a fraction of the labor cost.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can Paige be used alongside GoHighLevel?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes. Many agencies pair Paige with GoHighLevel &mdash; Paige handles the local SEO execution and fulfillment, and GHL handles lead capture, communication, and CRM. They complement each other rather than compete.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Does Paige include citation building?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes &mdash; citation building is available as an add-on. Standard pricing is $40/month/profile. Agencies in our Agency Partner Program get it at $20/month/profile.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Is there an affiliate program?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Yes. Refer businesses to Paige and earn 20% of what we earn from them &mdash; fully automated, paid out monthly. Many agencies use the affiliate program to monetize prospects who don't fit their own service offering.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How long does setup take?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">About 15 minutes per client profile. Connect their GBP, set your preferences (description, categories, services, tone of voice), and Paige takes over. After that, ongoing maintenance is roughly 1&ndash;2 hours per week regardless of how many clients you've added.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">What if I need to cancel?</span>
+            <span class="faq-chevron text-blue text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Cancel anytime &mdash; no contracts. Each profile is billed monthly so you can pause or remove individual clients without affecting the rest of your roster.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- §12 — FOOTER -->
+  <!-- ============================================================ -->
+  <footer class="bg-navy border-t border-white/10 py-8 text-white/60">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/paige-logo-white.svg" alt="Paige" class="w-[100px] h-auto">
+        <span class="text-sm">&copy; 2026 Merchynt</span>
+      </div>
+      <div class="text-sm flex gap-5">
+        <a href="https://www.merchynt.com/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="https://www.merchynt.com/terms" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================ -->
+  <!-- VIDEO MODAL (lazy iframe — only injected on open) -->
+  <!-- ============================================================ -->
+  <div id="video-modal" class="fixed inset-0 z-50 items-center justify-center p-4 md:p-8" role="dialog" aria-modal="true" aria-label="Paige demo video">
+    <div class="modal-backdrop absolute inset-0 bg-black/80" data-close-modal></div>
+    <div class="modal-card relative z-10 w-full max-w-5xl">
+      <button type="button" class="absolute -top-10 right-0 md:-top-12 text-white/80 hover:text-white transition-colors flex items-center gap-2 text-sm" data-close-modal aria-label="Close video">
+        <span>Close</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
+        <div id="video-modal-frame" class="w-full h-full"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS -->
+  <!-- ============================================================ -->
+  <script>
+    // 1. Intersection Observer for fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-up, .fade-in').forEach(el => observer.observe(el));
+
+    // 2. FAQ accordion
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.parentElement.querySelector('.faq-answer');
+        const chevron = btn.querySelector('.faq-chevron');
+        const isOpen = answer.classList.contains('open');
+        // Close all others
+        document.querySelectorAll('.faq-answer.open').forEach(a => {
+          a.classList.remove('open');
+          a.parentElement.querySelector('.faq-chevron').classList.remove('rotated');
+          a.parentElement.querySelector('.faq-chevron').textContent = '+';
+        });
+        if (!isOpen) {
+          answer.classList.add('open');
+          chevron.classList.add('rotated');
+          chevron.textContent = '−'; // minus sign
+        }
+      });
+    });
+
+    // 3. UTM passthrough — append LP URL params to all CTA hrefs on click
+    (function() {
+      const lpParams = new URLSearchParams(window.location.search);
+      // Only forward UTM-style params (and a few others) — not the whole query string
+      const forwardKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','fbclid','gclid'];
+      const forwarded = new URLSearchParams();
+      forwardKeys.forEach(k => { if (lpParams.has(k)) forwarded.set(k, lpParams.get(k)); });
+      if (forwarded.toString() === '') return;
+      document.querySelectorAll('a.cta-link').forEach(a => {
+        try {
+          const u = new URL(a.href);
+          forwarded.forEach((v, k) => u.searchParams.set(k, v));
+          a.href = u.toString();
+        } catch (e) { /* ignore malformed urls */ }
+      });
+    })();
+
+    // 4. Case study carousel
+    (function() {
+      const carousel = document.querySelector('.case-study-carousel');
+      if (!carousel) return;
+      const track = carousel.querySelector('.case-study-track');
+      const slides = carousel.querySelectorAll('.case-study-slide');
+      const prevBtn = carousel.querySelector('.case-study-prev');
+      const nextBtn = carousel.querySelector('.case-study-next');
+      const dots = carousel.querySelectorAll('.case-study-dot');
+      let currentIndex = 0;
+      const slideCount = slides.length;
+
+      function update() {
+        track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+        dots.forEach((dot, i) => {
+          if (i === currentIndex) {
+            dot.classList.remove('bg-gray-300');
+            dot.classList.add('bg-blue');
+          } else {
+            dot.classList.remove('bg-blue');
+            dot.classList.add('bg-gray-300');
+          }
+        });
+      }
+
+      prevBtn && prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+        update();
+      });
+      nextBtn && nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slideCount;
+        update();
+      });
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          currentIndex = i;
+          update();
+        });
+      });
+      // Keyboard nav while carousel has focus or hover
+      document.addEventListener('keydown', (e) => {
+        if (!carousel.matches(':hover') && !carousel.contains(document.activeElement)) return;
+        if (e.key === 'ArrowLeft') { currentIndex = (currentIndex - 1 + slideCount) % slideCount; update(); }
+        if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % slideCount; update(); }
+      });
+    })();
+
+    // 5. Video modal — lazy-inject iframe on open, remove on close
+    //    Supports multiple videos via data-video-id on each .video-trigger
+    (function() {
+      const modal = document.getElementById('video-modal');
+      const frameContainer = document.getElementById('video-modal-frame');
+      const triggers = document.querySelectorAll('.video-trigger');
+      // Default video for the hero (Paige demo) if no data-video-id present
+      const DEFAULT_VIDEO_ID = 'nBVJ2Nzs21Y';
+
+      function openModal(videoId) {
+        const id = videoId || DEFAULT_VIDEO_ID;
+        const src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+        frameContainer.innerHTML = '<iframe class="w-full h-full" src="' + src + '" title="Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+        modal.classList.add('open');
+        document.body.classList.add('modal-open');
+      }
+      function closeModal() {
+        // Remove iframe entirely — stops audio/video and frees resources
+        frameContainer.innerHTML = '';
+        modal.classList.remove('open');
+        document.body.classList.remove('modal-open');
+      }
+      triggers.forEach(t => {
+        t.addEventListener('click', () => {
+          const videoId = t.getAttribute('data-video-id');
+          openModal(videoId);
+        });
+      });
+      modal.querySelectorAll('[data-close-modal]').forEach(el => el.addEventListener('click', closeModal));
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+      });
+    })();
+
+    // 6. Testimonial video carousel
+    (function() {
+      const carousel = document.querySelector('.testimonial-carousel');
+      if (!carousel) return;
+      const track = carousel.querySelector('.testimonial-track');
+      const slides = carousel.querySelectorAll('.testimonial-slide');
+      const prevBtn = carousel.querySelector('.testimonial-prev');
+      const nextBtn = carousel.querySelector('.testimonial-next');
+      const dots = carousel.querySelectorAll('.testimonial-dot');
+      let currentIndex = 0;
+      const slideCount = slides.length;
+
+      function update() {
+        track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+        dots.forEach((dot, i) => {
+          if (i === currentIndex) {
+            dot.classList.remove('bg-gray-300');
+            dot.classList.add('bg-blue');
+          } else {
+            dot.classList.remove('bg-blue');
+            dot.classList.add('bg-gray-300');
+          }
+        });
+      }
+
+      prevBtn && prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+        update();
+      });
+      nextBtn && nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slideCount;
+        update();
+      });
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          currentIndex = i;
+          update();
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>

@@ -7,8 +7,8 @@ Value-prop landing pages for the **May 2026 — Paige Trial Value Prop Campaign 
 | Angle | URL | Status |
 |---|---|---|
 | AI Visibility | `/ai-visibility` | ✅ Built |
-| Save Time | `/save-time` | ⏳ Pending |
-| Boost Margins | `/boost-margins` | ⏳ Pending |
+| Save Time | `/save-time` | ✅ Built |
+| Boost Margins | `/boost-margins` | ✅ Built |
 
 ## Stack
 
