@@ -142,9 +142,12 @@
   <!-- ============================================================ -->
   <!-- HEADER (logo only, no nav per LP CRO best practice) -->
   <!-- ============================================================ -->
-  <header>
-    <div class="max-w-7xl mx-auto px-5 py-5">
-      <img src="assets/paige-logo-color.svg" alt="Paige" class="w-[120px] h-auto hero-animate hero-animate-1">
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-5 py-3 md:py-4 flex items-center justify-between gap-4">
+      <img src="assets/paige-logo-color.svg" alt="Paige" class="w-[100px] md:w-[110px] h-auto hero-animate hero-animate-1">
+      <a href="https://app.localmarketingmanager.com/?agency=true" class="cta-link inline-block bg-blue hover:bg-blue/90 text-white font-bold text-sm md:text-base px-4 py-2 md:px-6 md:py-2.5 rounded-[16px] shadow hover:shadow-md hover:scale-[1.03] transition-all duration-200 hero-animate hero-animate-1">
+        START FREE TRIAL
+      </a>
     </div>
   </header>
 
@@ -159,7 +162,7 @@
           <div class="inline-block bg-blue/10 rounded-full px-5 py-2 mb-5 hero-animate hero-animate-1">
             <p class="text-sm md:text-base leading-snug">
               <span class="text-blue font-bold">MEET PAIGE:</span>
-              <span class="text-dark"> The AI-Powered Local SEO Tool Trusted By 500+ Agencies</span>
+              <span class="text-dark"> The AI Search Optimization Tool Trusted By 500+ Agencies</span>
             </p>
           </div>
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-navy hero-animate hero-animate-1">
@@ -203,7 +206,7 @@
   <!-- ============================================================ -->
   <!-- §2 — SOCIAL PROOF BAR (As Featured In) -->
   <!-- ============================================================ -->
-  <section class="bg-gray-50 py-8 border-y border-gray-100">
+  <section class="bg-gray-50 py-10 md:py-12 border-y border-gray-100">
     <div class="max-w-5xl mx-auto px-5">
       <p class="text-xs text-gray-400 uppercase tracking-widest text-center mb-5 fade-in">As Featured In</p>
       <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-50">
@@ -214,6 +217,9 @@
         <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7cac2d208f7b685b93b_business-news-logo.svg" alt="Business News" class="h-5 md:h-7 fade-in">
         <img src="https://cdn.prod.website-files.com/66339c43cbff20ea82838f39/668be7ca50e49af103d357a2_spectrum-logo.svg" alt="Spectrum" class="h-5 md:h-7 fade-in">
       </div>
+      <p class="text-center mt-8 md:mt-10 text-sm md:text-base text-gray-600 fade-in">
+        Trusted by <strong class="text-navy">500+ agencies</strong> &middot; <strong class="text-navy">10,000+ GBPs</strong> managed &middot; <strong class="text-navy">4.9/5</strong> star rating &middot; <strong class="text-navy">900+</strong> reviews
+      </p>
     </div>
   </section>
 
@@ -230,45 +236,26 @@
         <p>Here's what makes a GBP genuinely attractive to AI tools &mdash; and how Paige optimizes every aspect:</p>
       </div>
       <div class="mt-8 grid md:grid-cols-2 gap-5 fade-up">
-        <!-- Card 1: Structured Data -->
+        <!-- Card 1: Structured Data & Categories -->
         <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue">
             <ellipse cx="12" cy="5" rx="9" ry="3"/>
             <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
             <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/>
           </svg>
-          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Structured Data</h3>
-          <p class="text-gray-600 leading-relaxed">LLMs feast on clean, schema-defined fields: name, address, phone, hours, categories, services, attributes. GBP is the most rigorous local-business schema on the web. <em>Paige optimizes business description, services, attributes, and social links automatically.</em></p>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Structured Data &amp; Categories</h3>
+          <p class="text-gray-600 leading-relaxed">LLMs feast on clean, schema-defined fields &mdash; name, address, hours, categories, services, attributes &mdash; and AI engines match queries to business types via those category and service tags. Get the wrong ones, get filtered out. <em>Paige optimizes every structured field and picks the highest-converting category combinations based on what's working across 10,000+ similar profiles.</em></p>
         </div>
-        <!-- Card 2: Clear Categories -->
-        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue">
-            <polygon points="12 2 2 7 12 12 22 7 12 2"/>
-            <polyline points="2 17 12 22 22 17"/>
-            <polyline points="2 12 12 17 22 12"/>
-          </svg>
-          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Clear Categories And Services</h3>
-          <p class="text-gray-600 leading-relaxed">AI engines match queries to business types via category and service tags. Get the wrong ones, get filtered out of the results. <em>Paige picks the highest-converting category combinations based on what's working across 10,000+ similar profiles.</em></p>
-        </div>
-        <!-- Card 3: Verifiable Ownership -->
+        <!-- Card 2: Verifiable, Cross-Referenced Identity -->
         <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-aqua">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             <polyline points="9 12 11 14 15 10"/>
           </svg>
-          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Verifiable Ownership And NAP</h3>
-          <p class="text-gray-600 leading-relaxed">AI tools weight Google-verified businesses higher than unverified listings, and rely on consistent name, address, and phone data to confirm legitimacy. <em>Paige keeps the profile current and syncs identical NAP data across 62 citation directories.</em></p>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Verifiable, Cross-Referenced Identity</h3>
+          <p class="text-gray-600 leading-relaxed">AI tools weight Google-verified businesses higher and rely on consistent NAP (name, address, phone) data across the web to confirm legitimacy. Mismatches confuse AI engines and tank visibility. <em>Paige keeps the profile current, syncs identical NAP data across 62 citation directories, detects duplicates, and pushes synced updates the moment a client's info changes.</em></p>
         </div>
-        <!-- Card 4: Cross-Referenced Citations -->
-        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green">
-            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-          </svg>
-          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Cross-Referenced Citations</h3>
-          <p class="text-gray-600 leading-relaxed">Every consistent citation reinforces the profile. Mismatches confuse AI engines and tank visibility. <em>Paige detects duplicates, corrects mismatches, and pushes synced updates the moment a client's info changes.</em></p>
-        </div>
-        <!-- Card 5: Recency Signals -->
+        <!-- Card 3: Recency Signals -->
         <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue">
             <circle cx="12" cy="12" r="10"/>
@@ -277,7 +264,7 @@
           <h3 class="font-bold text-lg text-navy mt-4 mb-2">Recency Signals</h3>
           <p class="text-gray-600 leading-relaxed">AI engines reward businesses that look active: daily posts, fresh photos, recent reviews. <em>Paige publishes daily GBP posts, drips geotagged photos, replies to reviews instantly, and pushes daily content to Facebook, Instagram, and LinkedIn.</em></p>
         </div>
-        <!-- Card 6: Indexable Video Content -->
+        <!-- Card 4: Indexable Video Content -->
         <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue">
             <polygon points="23 7 16 12 23 17 23 7"/>
@@ -288,7 +275,7 @@
         </div>
       </div>
       <div class="mt-10 fade-up text-lg text-gray-600 leading-relaxed space-y-4">
-        <p>Most agencies only do one or two of these &mdash; manually, sporadically, and only for the clients who scream loudest. <strong class="text-dark">Paige does all six, every day, for every client, on autopilot.</strong></p>
+        <p>Most agencies only do one or two of these &mdash; manually, sporadically, and only for the clients who scream loudest. <strong class="text-dark">Paige does all four, every day, for every client, on autopilot.</strong></p>
         <p>If your clients haven't already asked you what you're doing to help them optimize for AI search results, they're going to. Let Paige take all of that important, but tedious work off your plate so you can let them know you've already taken care of it.</p>
       </div>
       <div class="text-center mt-10 fade-up">
@@ -689,10 +676,17 @@
           <thead>
             <tr class="bg-gray-50">
               <th class="text-left p-4 md:p-5 text-sm font-semibold text-gray-500"></th>
-              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500">Do It Yourself</th>
-              <th class="text-center p-4 md:p-5 text-sm font-semibold text-gray-500">Employees / VAs</th>
-              <th class="text-center p-4 md:p-5 bg-blue/5">
+              <th class="text-center p-4 md:p-5 align-top">
+                <div class="text-sm font-semibold text-gray-500">Do It Yourself</div>
+                <div class="text-[11px] font-normal text-gray-400 mt-1 leading-tight">High Profit, Big Time Investment, High Stress</div>
+              </th>
+              <th class="text-center p-4 md:p-5 align-top">
+                <div class="text-sm font-semibold text-gray-500">Employees / VAs</div>
+                <div class="text-[11px] font-normal text-gray-400 mt-1 leading-tight">Low Profit, Medium Time Investment, High Stress</div>
+              </th>
+              <th class="text-center p-4 md:p-5 bg-blue/5 align-top">
                 <img src="assets/paige-logo-color.svg" alt="Paige" class="w-[80px] h-auto mx-auto">
+                <div class="text-[11px] font-semibold text-blue mt-2 leading-tight">High Profit, Low Time Investment, Low Stress</div>
               </th>
             </tr>
           </thead>
