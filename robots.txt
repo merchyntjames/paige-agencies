@@ -1,2 +1,10 @@
 User-agent: *
-Disallow: /
+Allow: /$
+Allow: /index.html
+Disallow: /signup
+Disallow: /ai-visibility
+Disallow: /save-time
+Disallow: /boost-margins
+Disallow: /gohighlevel
+
+Sitemap: https://paigeforagencies.com/sitemap.xml
