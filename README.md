@@ -13,6 +13,7 @@ Value-prop landing pages for the **May 2026 — Paige Trial Value Prop Campaign 
 | AI Visibility | https://paigeforagencies.com/ai-visibility | ✅ Built |
 | Save Time | https://paigeforagencies.com/save-time | ✅ Built |
 | Boost Margins | https://paigeforagencies.com/boost-margins | ✅ Built |
+| GoHighLevel | https://paigeforagencies.com/gohighlevel | ✅ Built |
 
 ## Stack
 
