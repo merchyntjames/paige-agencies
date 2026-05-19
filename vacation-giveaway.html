@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automate Your Local SEO Work. Get $500 Toward a Vacation. — Merchynt</title>
+  <meta name="description" content="Sign up for Paige, automate your agency's GBP management, and earn up to $500 toward your next vacation. Limited-time offer for agencies — May through June 2026 only.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Merchynt">
+  <meta property="og:url" content="https://paigeforagencies.com/vacation-giveaway">
+  <meta property="og:title" content="Automate Your Local SEO Work. Get $500 Toward a Vacation.">
+  <meta property="og:description" content="Sign up for Paige, automate your agency's GBP management, and earn up to $500 toward your next vacation. May - June 2026 only.">
+  <meta property="og:image" content="https://paigeforagencies.com/assets/hero-thumbnail.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Automate Your Local SEO Work. Get $500 Toward a Vacation.">
+  <meta name="twitter:description" content="Sign up for Paige, automate your agency's GBP management, and earn up to $500 toward your next vacation. May - June 2026 only.">
+  <meta name="twitter:image" content="https://paigeforagencies.com/assets/hero-thumbnail.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0f007d',
+            pink: '#dd0cf7',
+            blue: '#0063fd',
+            skyblue: '#31A8FF',
+            aqua: '#5CE5DC',
+            purple: '#8b00cc',
+            green: '#05c168',
+            orange: '#ff9e2c',
+            dark: '#1c1f23',
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-in { opacity: 0; transition: opacity 0.5s ease-out; }
+    .fade-in.visible { opacity: 1; }
+    .hero-animate { opacity: 0; transform: translateY(20px); animation: heroFadeUp 0.7s ease-out forwards; }
+    .hero-animate-1 { animation-delay: 0.1s; }
+    .hero-animate-2 { animation-delay: 0.3s; }
+    .hero-animate-3 { animation-delay: 0.5s; }
+    .hero-animate-4 { animation-delay: 0.7s; }
+    @keyframes heroFadeUp { to { opacity: 1; transform: translateY(0); } }
+    @keyframes subtlePulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(221, 12, 247, 0.4); } 50% { box-shadow: 0 0 0 8px rgba(221, 12, 247, 0); } }
+    .cta-pulse { animation: subtlePulse 2.5s ease-in-out 1.5s 3; }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+    .faq-answer.open { max-height: 500px; }
+    .faq-chevron { transition: transform 0.3s ease; }
+    .faq-chevron.rotated { transform: rotate(180deg); }
+    .play-btn {
+      width: 80px; height: 80px; border-radius: 9999px;
+      background: rgba(221, 12, 247, 0.95);
+      box-shadow: 0 8px 32px rgba(221, 12, 247, 0.35);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s ease;
+    }
+    .play-btn:hover { transform: scale(1.05); }
+    #video-modal { display: none; }
+    #video-modal.open { display: flex; }
+    #video-modal.open .modal-backdrop { animation: modalFadeIn 0.25s ease-out; }
+    #video-modal.open .modal-card { animation: modalPopIn 0.3s ease-out; }
+    @keyframes modalFadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes modalPopIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+    body.modal-open { overflow: hidden; }
+    @keyframes countPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
+    .urgency-pulse { animation: countPulse 3s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .fade-up, .fade-in { opacity: 1; transform: none; transition: none; }
+      .hero-animate { opacity: 1; transform: none; animation: none; }
+      .cta-pulse, .urgency-pulse { animation: none; }
+      .faq-answer { transition: none; }
+      .play-btn { transition: none; }
+      #video-modal.open .modal-backdrop, #video-modal.open .modal-card { animation: none; }
+    }
+  </style>
+
+  <!-- Meta (Facebook) Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2575183905893107');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2575183905893107&ev=PageView&noscript=1" alt=""/></noscript>
+
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
+  <!-- Vercel Speed Insights -->
+  <script>
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wjhxhgz96i");
+  </script>
+</head>
+<body class="bg-white text-dark font-sans antialiased">
+
+  <!-- ============================================================ -->
+  <!-- HEADER (Merchynt logo + CTA) -->
+  <!-- ============================================================ -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-5 py-3 md:py-4 flex items-center justify-between gap-4">
+      <img src="assets/merchynt-logo-color.svg" alt="Merchynt" class="w-[120px] md:w-[140px] h-auto hero-animate hero-animate-1">
+      <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-sm md:text-base px-4 py-2 md:px-6 md:py-2.5 rounded-[16px] shadow hover:shadow-md hover:scale-[1.03] transition-all duration-200 hero-animate hero-animate-1">
+        BOOK YOUR FREE CALL
+      </a>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- S1 HERO -->
+  <!-- ============================================================ -->
+  <section class="bg-navy relative overflow-hidden">
+    <div class="absolute inset-0 opacity-30 pointer-events-none" style="background-image: radial-gradient(circle at 20% 50%, rgba(221,12,247,0.3), transparent 50%), radial-gradient(circle at 80% 30%, rgba(0,99,253,0.3), transparent 50%);"></div>
+    <div class="max-w-7xl mx-auto px-5 pt-12 pb-16 md:pt-20 md:pb-28 relative z-10">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <!-- Left: copy -->
+        <div>
+          <div class="inline-block bg-white/10 rounded-full px-5 py-2 mb-5 hero-animate hero-animate-1">
+            <p class="text-sm md:text-base text-white/90 leading-snug">
+              <span class="text-pink font-bold">LIMITED TIME</span>
+              <span> &middot; May &ndash; June 2026 Only</span>
+            </p>
+          </div>
+          <h1 class="text-3xl md:text-4xl lg:text-[3.25rem] font-bold leading-[1.15] tracking-tight text-white hero-animate hero-animate-1">
+            Automate your local SEO&nbsp;work. <span class="text-pink">Get $500 toward a&nbsp;vacation.</span>
+          </h1>
+          <p class="mt-5 text-lg md:text-xl text-white/75 leading-relaxed hero-animate hero-animate-2">
+            Paige handles daily posts, review responses, photo uploads, and more for every client profile &mdash; so you can scale without adding headcount. Sign up this month and we'll put $500 toward your next trip.
+          </p>
+          <div class="mt-7 flex flex-col sm:flex-row gap-4 hero-animate hero-animate-3">
+            <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link cta-pulse inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200 text-center">
+              BOOK YOUR FREE STRATEGY CALL
+            </a>
+          </div>
+          <p class="mt-3 text-sm text-white/50 hero-animate hero-animate-4">
+            30 minutes &middot; No commitment &middot; Learn how it works
+          </p>
+        </div>
+        <!-- Right: video trigger -->
+        <div class="hero-animate hero-animate-2">
+          <button type="button" data-video-id="nBVJ2Nzs21Y" class="video-trigger w-full aspect-video bg-navy bg-cover bg-center rounded-2xl shadow-2xl border border-white/10 flex items-center justify-center relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-pink/40" style="background-image: url('assets/hero-thumbnail.webp')" aria-label="Play Paige demo video">
+            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors pointer-events-none"></div>
+            <span class="play-btn relative z-10 group-hover:scale-110 transition-transform">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </button>
+          <div class="mt-4 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-sm text-white/60">
+            <span class="flex items-center gap-1.5"><span class="text-orange">&#9733;</span> 4.9/5 rating</span>
+            <span class="text-white/30 hidden sm:inline">&middot;</span>
+            <span>900+ customer reviews</span>
+            <span class="text-white/30 hidden sm:inline">&middot;</span>
+            <span>10,000+ GBPs managed</span>
+          </div>
+        </div>
+      </div>
+      <!-- Social proof stats bar -->
+      <div class="mt-12 md:mt-16 grid grid-cols-3 gap-5 max-w-3xl mx-auto hero-animate hero-animate-4">
+        <div class="text-center">
+          <p class="text-3xl md:text-4xl font-bold text-white">500+</p>
+          <p class="mt-1 text-sm text-white/60">Agencies Trust Paige</p>
+        </div>
+        <div class="text-center">
+          <p class="text-3xl md:text-4xl font-bold text-white">10K+</p>
+          <p class="mt-1 text-sm text-white/60">Profiles Managed</p>
+        </div>
+        <div class="text-center">
+          <p class="text-3xl md:text-4xl font-bold text-white">4.9/5</p>
+          <p class="mt-1 text-sm text-white/60">Average Star Rating</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S2 HOW IT WORKS (3 steps) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">How The Vacation Giveaway Works</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Three steps. $500 toward your next&nbsp;trip.</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 fade-up">
+        <!-- Step 1 -->
+        <div class="relative">
+          <div class="w-12 h-12 rounded-full bg-pink/10 flex items-center justify-center mb-4">
+            <span class="text-pink font-bold text-xl">1</span>
+          </div>
+          <h3 class="font-bold text-xl text-navy mb-2">Book a Strategy Call</h3>
+          <p class="text-gray-600 leading-relaxed">Schedule a free 30-minute session with our agency team. We'll walk through how Paige fits your operation &mdash; no pressure, no commitment.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="relative">
+          <div class="w-12 h-12 rounded-full bg-blue/10 flex items-center justify-center mb-4">
+            <span class="text-blue font-bold text-xl">2</span>
+          </div>
+          <h3 class="font-bold text-xl text-navy mb-2">Automate Your Agency</h3>
+          <p class="text-gray-600 leading-relaxed">Onboard your first clients in minutes. Paige takes over from day one &mdash; posts, reviews, photos, reports. Setup takes about 10 minutes per profile.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="relative">
+          <div class="w-12 h-12 rounded-full bg-green/10 flex items-center justify-center mb-4">
+            <span class="text-green font-bold text-xl">3</span>
+          </div>
+          <h3 class="font-bold text-xl text-navy mb-2">Claim Your $500 Credit</h3>
+          <p class="text-gray-600 leading-relaxed">Once you qualify, we'll send you up to $500 for flights. Book the trip you've been putting off &mdash; Paige handles the work while you're gone.</p>
+        </div>
+      </div>
+      <div class="text-center mt-12 fade-up">
+        <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          BOOK YOUR FREE STRATEGY CALL
+        </a>
+        <p class="mt-3 text-sm text-gray-400">Limited spots &middot; May &ndash; June 2026 only</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S3 FINE PRINT (transparent, builds trust) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-12 md:py-16 border-y border-gray-100">
+    <div class="max-w-3xl mx-auto px-5 fade-up">
+      <h3 class="font-bold text-lg text-navy mb-4">The Fine Print, Written In Plain English:</h3>
+      <ul class="space-y-3 text-gray-600 text-[15px] leading-relaxed">
+        <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span>Receive up to $500 for flight reimbursement</li>
+        <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span>Offer valid only to agencies that sign up before June 30, 2026</li>
+        <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span>Agency and onboarded clients must be located in USA</li>
+        <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span>Exclusive to new customers only (must have never used Paige before)</li>
+        <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span>Qualify by onboarding and paying for at least 3 client profiles for at least 3 months each, or by spending over $900 with Merchynt by October 2026</li>
+      </ul>
+      <p class="mt-5 text-sm text-gray-500">Still have questions? <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="text-pink hover:text-navy underline font-medium">Book your free strategy call</a> and we'll be happy to clear things up.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S4 WHAT PAIGE DOES (feature grid) -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-blue font-semibold text-sm uppercase tracking-widest mb-3">Say Hello To Paige</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">One platform. <span class="text-pink">Zero manual SEO work.</span></h2>
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Everything your agency needs to deliver world-class local SEO results &mdash; fully automated, fully branded, and fully hands-off.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6 fade-up">
+        <!-- Feature 1 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-pink"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Daily GBP Posts</h3>
+          <p class="text-gray-600 leading-relaxed">AI-generated, keyword-optimized posts published daily to every client profile &mdash; no scheduling, no copywriting required.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Instant Review Responses</h3>
+          <p class="text-gray-600 leading-relaxed">Smart, brand-appropriate responses generated and posted within minutes of every new review &mdash; 5-star or 1-star.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-skyblue"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Geotagged Photo Uploads</h3>
+          <p class="text-gray-600 leading-relaxed">Location-embedded photos uploaded automatically to strengthen local relevance signals and boost map pack rankings.</p>
+        </div>
+        <!-- Feature 4 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-aqua"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Listing Optimization</h3>
+          <p class="text-gray-600 leading-relaxed">Paige continuously audits and optimizes every GBP field &mdash; categories, descriptions, hours, and attributes.</p>
+        </div>
+        <!-- Feature 5 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple"><path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3L12 3z"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">AEO/GEO Optimization</h3>
+          <p class="text-gray-600 leading-relaxed">Paige automates AI SEO for you, helping you get more visibility everywhere people are searching for businesses like yours.</p>
+        </div>
+        <!-- Feature 6 -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          <h3 class="font-bold text-lg text-navy mt-4 mb-2">Performance Reporting</h3>
+          <p class="text-gray-600 leading-relaxed">White-labeled monthly reports show rankings, impressions, calls, and direction requests &mdash; automatically delivered to clients.</p>
+        </div>
+      </div>
+      <div class="text-center mt-8 fade-up">
+        <div class="inline-block bg-gray-50 rounded-full px-6 py-3 text-sm text-gray-600">
+          Setup takes ~10 minutes per profile. Onboard your entire client roster in an afternoon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S5 THE REAL COST (pain + solution) -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-start">
+        <!-- Left: problem narrative -->
+        <div class="fade-up">
+          <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">The Real Cost of Manual Work</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">You're spending <span class="text-pink">4&ndash;6 hours per client</span> on work that AI can do in&nbsp;minutes.</h2>
+          <div class="mt-6 text-gray-600 leading-relaxed space-y-4">
+            <p>Handling GBP management manually is quietly killing your agency's margins. Every hour your team spends scheduling posts, responding to reviews, and updating listings is an hour <strong class="text-dark">not spent on growth, sales, or higher-value work.</strong></p>
+            <p>The bigger your agency gets, the more problematic this becomes. Local SEO agencies almost always hit a plateau &mdash; not because of lack of clients, but because of lack of capacity.</p>
+            <p>Paige eliminates the bottleneck entirely and makes your agency infinitely scalable right away.</p>
+          </div>
+        </div>
+        <!-- Right: 3 pain cards -->
+        <div class="space-y-4 fade-up">
+          <div class="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+            <h3 class="font-bold text-navy text-lg mb-2">Your Time Is Wasted</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Spending 4&ndash;6 hours per client per month on repetitive GBP tasks is a poor use of your team's valuable time.</p>
+          </div>
+          <div class="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+            <h3 class="font-bold text-navy text-lg mb-2">Your Margins Are Eroded</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Labor costs are eating into your profits &mdash; especially as you add headcount to handle more clients.</p>
+          </div>
+          <div class="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+            <h3 class="font-bold text-navy text-lg mb-2">Your Growth Is Capped</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">You can't scale manual tasks without scaling expenses. You need smarter systems, not more staff.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12 fade-up">
+        <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          BOOK YOUR FREE STRATEGY CALL
+        </a>
+        <a href="https://reviews.merchynt.com/" target="_blank" rel="noopener" class="inline-block ml-4 border-2 border-gray-200 hover:border-gray-300 text-navy font-bold text-lg px-8 py-4 rounded-[20px] hover:shadow-md transition-all duration-200">
+          See Our 900+ Reviews
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S6 SOCIAL PROOF + STATS (navy bg) -->
+  <!-- ============================================================ -->
+  <section class="bg-navy py-16 md:py-24 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-30 pointer-events-none" style="background-image: radial-gradient(circle at 15% 30%, rgba(221,12,247,0.3), transparent 40%), radial-gradient(circle at 85% 70%, rgba(0,99,253,0.4), transparent 40%);"></div>
+    <div class="max-w-6xl mx-auto px-5 relative z-10">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-pink font-semibold text-sm uppercase tracking-widest mb-3">Join the Movement</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight">500+ agencies have already made<br>the switch to Paige.</h2>
+        <p class="mt-5 text-white/70 max-w-2xl mx-auto">The fastest-growing marketing agencies aren't working harder &mdash; they're working smarter. They've replaced hours of manual GBP work with Paige, and they're using the extra time to grow their business, or finally take some time off.</p>
+      </div>
+      <!-- 3 stat circles -->
+      <div class="grid grid-cols-3 gap-6 max-w-3xl mx-auto mb-12 fade-up">
+        <div class="text-center">
+          <div class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-pink/60 flex items-center justify-center mx-auto">
+            <span class="text-2xl md:text-3xl font-bold text-white">94%</span>
+          </div>
+          <p class="mt-3 text-sm font-semibold text-white">Client Retention Rate</p>
+          <p class="text-xs text-white/50 mt-1">Agencies using Paige retain more clients.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-blue/60 flex items-center justify-center mx-auto">
+            <span class="text-2xl md:text-3xl font-bold text-white">87%</span>
+          </div>
+          <p class="mt-3 text-sm font-semibold text-white">Report Time Saved</p>
+          <p class="text-xs text-white/50 mt-1">Less time reporting, more time selling.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-green/60 flex items-center justify-center mx-auto">
+            <span class="text-2xl md:text-3xl font-bold text-white">300%</span>
+          </div>
+          <p class="mt-3 text-sm font-semibold text-white">Average ROI</p>
+          <p class="text-xs text-white/50 mt-1">3x local SEO revenue within 6 months.</p>
+        </div>
+      </div>
+      <!-- Testimonials -->
+      <div class="grid md:grid-cols-3 gap-5 fade-up">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/10">
+          <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-white/80 leading-relaxed mb-4">"I've been working with Merchynt's AI tool 'Paige' and <strong class="text-white">I am blown away by how it makes my life easier!</strong> The ease of use has been a game changer for me."</p>
+          <div class="flex items-center gap-3">
+            <img src="assets/amber-goetz.webp" alt="Amber Goetz" class="w-9 h-9 rounded-full object-cover bg-white/20">
+            <p class="text-sm font-bold text-white">Amber Goetz</p>
+          </div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/10">
+          <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-white/80 leading-relaxed mb-4">"Paige has made managing my GBP completely hands-off and effective. <strong class="text-white">It's a must-have for local SEO.</strong> I'm planning to start offering this to my clients."</p>
+          <div class="flex items-center gap-3">
+            <img src="assets/jason-mitchell.webp" alt="Jason Mitchell" class="w-9 h-9 rounded-full object-cover bg-white/20">
+            <p class="text-sm font-bold text-white">Jason Mitchell</p>
+          </div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/10">
+          <div class="text-orange mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="text-sm text-white/80 leading-relaxed mb-4">"I find Paige incredibly helpful for getting my clients to rank better. <strong class="text-white">The initial setup is super easy, just follow along and you're good to go in minutes.</strong>"</p>
+          <div class="flex items-center gap-3">
+            <img src="assets/anthony-b.webp" alt="Anthony B." class="w-9 h-9 rounded-full object-cover bg-white/20">
+            <p class="text-sm font-bold text-white">Anthony B.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S7 PRICING + OFFER RECAP -->
+  <!-- ============================================================ -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="text-center mb-10 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy leading-tight">Simple pricing. Plus $500 toward&nbsp;a&nbsp;vacation.</h2>
+        <p class="mt-4 text-lg text-gray-600">Most agencies charge clients $500&ndash;1,500/month for GBP services. Paige costs you just $99 per profile.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 items-start fade-up">
+        <!-- Pricing card -->
+        <div class="bg-gradient-to-br from-navy via-blue to-skyblue rounded-2xl p-8 md:p-10 shadow-2xl text-white relative overflow-hidden">
+          <div class="absolute inset-0 opacity-25 pointer-events-none" style="background-image: radial-gradient(circle at 85% 20%, rgba(221,12,247,0.3), transparent 45%);"></div>
+          <div class="relative z-10">
+            <p class="text-xs uppercase tracking-widest text-white/70 mb-2">Per profile, per month</p>
+            <p class="text-6xl md:text-7xl font-bold text-white">$99<span class="text-2xl text-white/70 font-normal">/mo</span></p>
+            <ul class="mt-6 space-y-3 text-left">
+              <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Full automation, top to bottom</span></li>
+              <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>White-label included</span></li>
+              <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Unlimited team users</span></li>
+              <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>15-minute setup per profile</span></li>
+              <li class="flex gap-3 items-start text-white/90"><span class="text-aqua flex-shrink-0 mt-1">&#10003;</span><span>Cancel anytime</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Vacation offer card -->
+        <div class="bg-white rounded-2xl border-2 border-pink/20 p-8 md:p-10 shadow-xl relative overflow-hidden">
+          <div class="absolute top-0 right-0 bg-pink text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl">LIMITED TIME</div>
+          <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Vacation Giveaway</p>
+          <p class="text-5xl md:text-6xl font-bold text-pink">$500</p>
+          <p class="text-lg text-navy font-semibold mt-1">toward your next trip</p>
+          <ul class="mt-6 space-y-3 text-left text-gray-700 text-sm">
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span><span>Up to $500 flight reimbursement</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span><span>Sign up before June 30, 2026</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span><span>New customers only (USA)</span></li>
+            <li class="flex gap-3 items-start"><span class="text-green flex-shrink-0 mt-0.5">&#10003;</span><span>Qualify with 3+ client profiles</span></li>
+          </ul>
+          <div class="mt-6">
+            <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link block w-full bg-pink hover:bg-pink/90 text-white font-bold text-lg px-10 py-4 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-200 text-center">
+              BOOK YOUR FREE CALL
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom urgency banner -->
+      <div class="mt-10 bg-navy/5 border border-navy/10 rounded-xl p-6 text-center fade-up urgency-pulse">
+        <p class="text-navy font-bold text-lg">This offer ends June 30, 2026.</p>
+        <p class="text-gray-600 text-sm mt-1">Spots are limited. Once they're filled, this promotion closes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S8 FAQ -->
+  <!-- ============================================================ -->
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-navy">Frequently Asked Questions</h2>
+        <p class="mt-4 text-base md:text-lg text-gray-600 leading-relaxed">Don't see your question? <a href="mailto:support@merchynt.com" class="text-pink hover:text-navy underline">Email us</a> or ask during your strategy call.</p>
+      </div>
+      <div class="space-y-3 fade-up" id="faq-list">
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How does the $500 vacation giveaway work?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Sign up for Paige before June 30, 2026 and qualify by onboarding at least 3 client profiles for at least 3 months each (or by spending $900+ with Merchynt by October 2026). Once you qualify, we'll reimburse up to $500 for flights. The offer is for new customers only, and both your agency and clients must be in the USA.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">What does Paige actually do?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Paige is an AI-powered worker that fully automates Google Business Profile management. She handles daily posts, review responses, geotagged photo uploads, listing optimization, AI search optimization (AEO/GEO), and white-labeled performance reporting &mdash; all without any manual work from your team.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Can I white-label Paige for my clients?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">Absolutely. Paige was built with a "White-Label First" philosophy. Custom domain, your logo, your brand colors, emails sent from your address &mdash; you can even rename Paige to whatever you want. Your clients see your agency, not Merchynt.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How much does Paige cost?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">$99 per client profile per month. No contracts, cancel anytime. Most agencies charge their clients $500&ndash;1,500/month for GBP services, making Paige an extremely high-margin service line. White-labeling is included at no extra cost.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">How long does setup take?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">About 15 minutes per client profile. Connect their GBP, set your preferences (description, categories, services, tone of voice), and Paige takes over. You can onboard your entire client roster in an afternoon.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <button type="button" class="faq-toggle w-full text-left p-5 md:p-6 flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-navy">Is there a commitment or contract?</span>
+            <span class="faq-chevron text-pink text-2xl flex-shrink-0 leading-none">+</span>
+          </button>
+          <div class="faq-answer">
+            <p class="px-5 md:px-6 pb-5 md:pb-6 text-gray-600 leading-relaxed text-sm">No. You can cancel anytime with one click. Each profile is billed monthly, so you can pause or remove individual clients without affecting the rest of your roster. The vacation giveaway qualification requires maintaining 3+ profiles for 3 months, but there's no lock-in contract.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- S9 FINAL CTA -->
+  <!-- ============================================================ -->
+  <section class="bg-navy py-16 md:py-24 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-30 pointer-events-none" style="background-image: radial-gradient(circle at 50% 50%, rgba(221,12,247,0.4), transparent 50%);"></div>
+    <div class="max-w-3xl mx-auto px-5 text-center relative z-10">
+      <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight fade-up">Automate your client work.<br><span class="text-pink">Take a vacation on us.</span></h2>
+      <p class="mt-5 text-white/70 text-lg fade-up">30 minutes. No sales pressure. Just a clear picture of what automation could do for your agency &mdash; plus a shot at $500 toward your next&nbsp;trip.</p>
+      <div class="mt-8 fade-up">
+        <a href="https://meetings.hubspot.com/merchynt/agency-vacation-promotion" target="_blank" rel="noopener" class="cta-link inline-block bg-pink hover:bg-pink/90 text-white font-bold text-lg px-12 py-5 rounded-[20px] shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all duration-200">
+          BOOK YOUR FREE STRATEGY CALL
+        </a>
+        <p class="mt-3 text-sm text-white/50">May &ndash; June 2026 &middot; Limited spots available</p>
+      </div>
+      <div class="mt-10 grid grid-cols-3 gap-4 max-w-md mx-auto fade-up">
+        <div class="text-center">
+          <p class="text-white font-bold text-sm">Free Call</p>
+          <p class="text-white/50 text-xs mt-1">No cost, no pressure</p>
+        </div>
+        <div class="text-center">
+          <p class="text-white font-bold text-sm">No Commitment</p>
+          <p class="text-white/50 text-xs mt-1">Walk away with insights</p>
+        </div>
+        <div class="text-center">
+          <p class="text-white font-bold text-sm">30 Minutes</p>
+          <p class="text-white/50 text-xs mt-1">That's all it takes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================================ -->
+  <footer class="bg-navy border-t border-white/10 py-8 text-white/60">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/merchynt-logo-white.svg" alt="Merchynt" class="w-[120px] h-auto">
+        <span class="text-sm">&copy; 2026 Merchynt</span>
+      </div>
+      <div class="text-sm flex gap-5">
+        <a href="https://www.merchynt.com/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="https://www.merchynt.com/terms" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================ -->
+  <!-- VIDEO MODAL -->
+  <!-- ============================================================ -->
+  <div id="video-modal" class="fixed inset-0 z-50 items-center justify-center p-4 md:p-8" role="dialog" aria-modal="true" aria-label="Paige demo video">
+    <div class="modal-backdrop absolute inset-0 bg-black/80" data-close-modal></div>
+    <div class="modal-card relative z-10 w-full max-w-5xl">
+      <button type="button" class="absolute -top-10 right-0 md:-top-12 text-white/80 hover:text-white transition-colors flex items-center gap-2 text-sm" data-close-modal aria-label="Close video">
+        <span>Close</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
+        <div id="video-modal-frame" class="w-full h-full"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS -->
+  <!-- ============================================================ -->
+  <script>
+    // 1. Intersection Observer for fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-up, .fade-in').forEach(el => observer.observe(el));
+
+    // 2. FAQ accordion
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.parentElement.querySelector('.faq-answer');
+        const chevron = btn.querySelector('.faq-chevron');
+        const isOpen = answer.classList.contains('open');
+        document.querySelectorAll('.faq-answer.open').forEach(a => {
+          a.classList.remove('open');
+          a.parentElement.querySelector('.faq-chevron').classList.remove('rotated');
+          a.parentElement.querySelector('.faq-chevron').textContent = '+';
+        });
+        if (!isOpen) {
+          answer.classList.add('open');
+          chevron.classList.add('rotated');
+          chevron.textContent = '−';
+        }
+      });
+    });
+
+    // 3. UTM passthrough
+    (function() {
+      const lpParams = new URLSearchParams(window.location.search);
+      const forwardKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','fbclid','gclid'];
+      const forwarded = new URLSearchParams();
+      forwardKeys.forEach(k => { if (lpParams.has(k)) forwarded.set(k, lpParams.get(k)); });
+      if (forwarded.toString() === '') return;
+      document.querySelectorAll('a.cta-link').forEach(a => {
+        try {
+          const u = new URL(a.href);
+          forwarded.forEach((v, k) => u.searchParams.set(k, v));
+          a.href = u.toString();
+        } catch (e) {}
+      });
+    })();
+
+    // 4. Video modal
+    (function() {
+      const modal = document.getElementById('video-modal');
+      const frameContainer = document.getElementById('video-modal-frame');
+      const triggers = document.querySelectorAll('.video-trigger');
+      const DEFAULT_VIDEO_ID = 'nBVJ2Nzs21Y';
+
+      function openModal(videoId) {
+        const id = videoId || DEFAULT_VIDEO_ID;
+        const src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+        frameContainer.innerHTML = '<iframe class="w-full h-full" src="' + src + '" title="Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+        modal.classList.add('open');
+        document.body.classList.add('modal-open');
+      }
+      function closeModal() {
+        frameContainer.innerHTML = '';
+        modal.classList.remove('open');
+        document.body.classList.remove('modal-open');
+      }
+      triggers.forEach(t => {
+        t.addEventListener('click', () => {
+          const videoId = t.getAttribute('data-video-id');
+          openModal(videoId);
+        });
+      });
+      modal.querySelectorAll('[data-close-modal]').forEach(el => el.addEventListener('click', closeModal));
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+      });
+    })();
+  </script>
+
+</body>
+</html>
